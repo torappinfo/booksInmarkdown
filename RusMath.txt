@@ -1,0 +1,3474 @@
+So... First one -- Moscow, 1961.
+
+	form
+	   8  001   002   003   004   005a
+	   9  006a  007   008   009   010
+	  10  011   012   007   006b  005b
+
+001.
++-------------+--------------+ Given a figure, containing 16 segments.
+|             |              | You should prove that there is no curve,
+|             |              | that intersect each segment exactly once.
++-------+-----+----+---------+ The curve may be not closed, may
+|       |          |         | intersect itself, but it is not
+|       |          |         | allowed to touch the segments or
++----------------------------+ to pass through the vertices.
+
+002.
+Given a rectangle A_1A_2A_3A_4.  Four circles with A_i as a centres
+have their radiuses r_1,r_2,r_3,r_4, and r_1 + r_3  =  r_2 + r_4  <  d,
+where d is a diagonal of the rectangle.  Two pairs of the outer common
+tangents to {the first and the third} and {the second and the fourth}
+circumferences make a quadrangle.
+Prove that You can inscribe a circle into that quadrangle.
+
+003.
+Prove that among 39 sequential natural numbers there always is a
+number with the sum of its digits dividable by 11.
+
+004.
+Given a table 4x4.
+a) Find, how 7 stars can be put in its fields in such a way, that
+erasing of two arbitrary lines and two columns will always leave at
+list one of the stars.
+b)Prove that if there are less than 7 stars, You can always find two
+columns and two rows, that if You erase them, no star will remain in
+the table.
+
+005.
+a)
+Given a quartet of positive numbers. (a,b,c,d). It is transformed to
+the new one according to the rule:  a'=ab; b' =bc; c'=cd; d' =da.
+The second one is transformed to the third according to the same rule
+and so on.
+Prove that if at least one initial number does not
+equal 1, than You can never obtain the initial set.
+b)
+Given a set of 2^k (k-th power of two) numbers, equal either to 1 or
+to -1. It is transformed as that was in the a) problem (each one is
+multiplied by the next, and the last -- by the first.
+Prove that You will always finally obtain the set of positive units.
+
+006.
+a)
+Points A and B move uniformly and with equal angle speed along the
+circumferences with O_a and O_b centres (both clockwise).
+Prove that a vertex C of the equilateral triangle ABC also moves
+along a certain circumference uniformly.
+b)
+The distance from the point P to the vertices of the equilateral
+triangle ABC  equal |AP|=2, |BP|=3.  Find the maximal value of CP.
+
+007.
+Given some mxn table, and some numbers in its fields.  You are allowed
+to change the sign in one row or one column simultaneously.
+Prove that You can obtain a table, with nonnegative sums over each row
+and over each column.
+
+008.
+Given n points, some of them connected by nonintersecting segments.
+You can reach every point from every one, moving through(?) the
+segments, and there is no couple, connected by two different ways.
+Prove that the total number of the segments is (n-1).
+
+009.
+Given a,b,p -arbitrary integers.
+Prove that there always exist relatively prime (i.e. that have no
+common divisor) k and l, that (ak + bl) is dividable by p.
+
+010.
+Nickolas and Peter are dividing (2n+1) nuts.  Each wants to get more.
+Three ways for that were suggested. (Each consist of three stages.)
+First two stages are common.
+---------
+     1 stage: Peter divides nuts onto 2 heaps,
+              each contain not less than 2 nuts.
+---------
+     2 stage: Nickolas divides both heaps onto 2 heaps,
+              each contain not less than 1 nut.
+---------
+	3 stage:
+----------------
+          1 way: Nickolas takes the biggest and the least heaps.
+----------------
+          2 way: Nickolas takes two middle size heaps.
+----------------
+          3 way: Nickolas takes either the biggest and the least heaps
+                 or two middle size heaps, but gives one nut to the
+                 Peter for the right of choice.
+----------------
+Find the most and the least profitable method for the Nickolas.
+
+011.
+Prove that for three arbitrary infinite sequences, of natural numbers
+	a_1, a_2, ... , a_n, ...
+	b_1, b_2, ... , b_n, ...
+	c_1, c_2, ... , c_n, ...
+there exist numbers p and q such, that
+a_p >= a_q; b_p >= b_q and c_p >= c_q.
+
+012.
+Given 120 unit squares arbitraryly situated in the 20x25 rectangle.
+Prove that You can place a circle with the unit
+diameter without intersecting any of the squares.
+
+
+The second competition -- Moscow, 1962.
+
+	form
+	   8  013   014   015   016   017
+	   9  018   019   020   021   017
+	  10  022   023   024   025   026
+
+013.
+Given points A',B',C',D', on the continuation of the [AB],[BC],[CD],[DA]
+sides of the convex quadrangle ABCD, such, that the following pairs of
+vectors are equal:  [BB'[=[AB[, [CC['=[BC[, [DD'=CD[, [AA'[=[DA[.
+Prove that the quadrangle A'B'C'D' area is five times more than the
+quadrangle ABCD area.
+
+014.
+Given the circumference s and the straight line l, passing through the
+centre O of s. Another circumference s' passes through the point O and
+has its centre on the l.  Describe the set of the points M, where the
+common tangent of s and s' touches s'.
+
+015.
+Given positive numbers a_1, a_2, ..., a_99, a_100. It is known, that
+a_1 > a_0;  a_2 = 3a_1 - 2a_0,
+a_3 = 3a_2 - 2a_1,  ..., a_100 = 3a_99 - 2a _98.
+Prove that a_100 > 2^99.
+
+016.
+Prove that there are no integers a,b,c,d such that the polynomial
+ax^3 + bx^2 + cx + d equals 1 at x=19, and equals 2 at x=62.
+
+017.
+Given a nxn table, where n is odd. There is either 1 or -1 in its every
+field. A product of the numbers in the column is written under every
+column.  A product of the numbers in the row is written to the right of
+every row.
+Prove that the sum of 2n products doesn't equal to 0.
+
+018.
+Given two sides of the triangle.
+Build that triangle, if medians to those sides are orthogonal.
+
+019.
+Given a quartet of positive numbers a,b,c,d, and is known, that abcd=1.
+Prove that a^2 + b^2 + c^2 + d^2 + ab + ac + ad + bc + bd + dc >= 10
+
+020.
+Given right pentagon ABCDE.  M is an arbitrary point inside ABCDE or on
+its side. Let the distances |MA|, |MB|, ... , |ME| be renumerated and
+denoted with r_1 <= r_2 <= r_3 <= r_4 <= r_5.
+Find all the positions of the M, giving r_3 the minimal possible value.
+Find all the positions of the M, giving r_3 the maximal possible value.
+
+021.
+Given 1962 -digit number. It is dividable by 9. Let x be the sum of its
+digits. Let the sum of the digits of x be y. Let the sum of the digits
+of y be z.  Find z.
+
+022.
+The M point is a middle of a isosceles triangle base [AC]. [MH] is
+orthogonal to [BC] side. Point P is the middle of the segment [MH].
+Prove that [AH] is orthogonal to [BP].
+
+023.
+What maximal area can have a triangle if its sides a,b,c satisfy
+inequality  0 <= a <= 1 <= b <= 2 <= c <= 3?
+
+024.
+Given x,y,z, three different integers.
+Prove that ( (x-y)^5 + (y-z)^5 + (z-x)^5 ) is
+dividable by 5(x-y)(y-z)(z-x).
+
+025.
+Given a_0, a_1, ... , a_n. It is known that a_0 = a_n = 0;
+a_{k-1} - 2a_k + a_{k+1} >=0 at all k = 1, 2, ... , k-1.
+Prove that all the numbers are nonnegative.
+
+026.
+Given positive numbers  a_1, a_2, ..., a_m;  b_1, b_2, ..., b_n;
+and is known that  a_1 + a_2 + ... + a_m = b_1 + b_2 + ... + b_n.
+Prove that You can fill an empty table with m rows and n columns with
+no more than (m+n-1) positive number in such a way, that for all i,j
+the sum of the numbers in the i-th row will equal to a_i, and the sum
+of the numbers in the j-th column  --- to b_j.
+
+
+The third competition -- Moscow, 1963.
+
+	form
+	   8  027   028   029a  030   031a
+	   9  032   033   034   031b  028
+	  10  035   036   037   029b  028
+	  11  038   028   039   040   029b
+
+027.
+Given 5 circumferences, every four of them have a common point.
+Prove that there exist a point that belongs to all five circumferences.
+
+028.
+Eight men had participated in the chess tournament. (Each meets each;
+draws are allowed, giving 1/2 of pont; winner gets 1.) Everyone has
+different number of points. The second one has got as many points as
+the the four weakest together.
+What was the result of the play between the third prizer and
+the chess-player that have occupied the seventh place?
+
+029.
+a) Each diagonal of the quadrangle halves its area.
+   Prove that it is a parallelogram.
+b) Three main diagonals of the hexagon halve its area.
+   Prove that they intersect in one point.
+
+030.
+Natural numbers a and b are relatively prime.  Prove that the greatest
+common divisor of (a+b) and (a^2+b^2) is either 1 or 2.
+
+031.
+Given two fixed points A and B .The point M runs along the
+circumference containing A and B. K is the middle of the segment [MB].
+[KP] is a perpendicular to the line (MA).
+a) Prove that all the possible lines (KP) pass through one point.
+b) Find the set of all the possible points P.
+
+032.
+Given equilateral triangle with the side l.
+What is the minimal length d of a brush (segment), that will paint all
+the triangle, if its ends are moving along the sides of the triangle.
+
+033.
+A chess-board 6x6 is tiled with the 2x1 dominos.
+Prove that You can cut the board onto two parts by
+a straight line that does not cut dominos.
+
+034.
+Given n different positive numbers a_1, a_2, ... , a_n.
+We construct all the possible sums (from 1 to n terms).
+Prove that among those sums there are at least n(n+1)/2 different ones.
+
+035.
+Given a triangle ABC. We build two angle bisectors in the corners A and
+B. Than we build two lines parallel to those ones through the point C.
+D and E are intersections of those lines with the bisectors. It happens,
+that (DE) line is parallel to (AB).
+Prove that the triangle is isosceles.
+
+036.
+Given the endless arithmetic progression with the positive integer
+members. One of those is an exact square.  Prove that the progression
+contain the infinite number of the exact squares.
+
+037.
+Given right 45-angle. Can You mark its corners with the digits
+{0,1,...,9} in such a way, that for every pair of digits there would be
+a side with both ends marked with those digits?
+
+038.
+Find such real p,q,a,b, that for all x helds an equality:
+(2x-1)^20 - (ax+b)^20 = (x^2+px+q)^10.
+
+039.
+On the ends of the diameter two "1"s are written.  Each of the
+semicircles is divided onto two parts and the sum of the numbers of its
+ends (i.e. "2") is written at the middle point. Then every of the four
+arcs is halved and in its middle the sum of the numbers on its ends is
+written.
+Find the total sum of the numbers on the circumference after n steps.
+
+040.
+Given an isosceles triangle. Find the set of the points inside the
+triangle such, that the distance from that point to the base equals to
+the geometric mean of the distances to the sides.
+
+
+The 4-th competition -- Moscow, 1964.
+
+  form
+    8  041   042   043   044   045a
+    9  041   046   047   048   049
+   10  050   051   045ab 052   053
+   11  054   055   052   053   054
+
+041.
+The two heights in the triangle are not less than the respective sides.
+Find the angles.
+
+042.
+Prove that for no natural m a number m(m + 1) is a power of an integer.
+
+043.
+Given 1000000000 first natural numbers. We change each number with the
+sum of its digits an repeat this procedure until there will remain
+1000000000 one digit numbers. Is there more 1-s or 2-s?
+
+044.
+Given an arbitrary set of 2k+1 integers a_1, a_2, ... , a_{2k+1}.
+We make a new set:
+a_1 + a_2  a_2 + a_3        a_{2k} + a_{2k+1}  a_{2k+1} + a_1
+---------, ---------, ... , -----------------, --------------,
+    2          2                   2                  2
+and a new one, according to the same rule, and so on...
+Prove that if we obtain integers only, the initial set consisted of
+equal integers only.
+
+045.
+a) Given a convex hexagon ABCDEF with all the equal angles.
+   Prove that |AB|-|DE| = |EF|-|BC| = |CD|-|FA|.
+b) The opposite problem: Prove that it is possible to build a convex
+   hexagon with equal angles of six segments a_1, a_2, ... , a_6, whose
+   lengths satisfy the condition a_1 - a_4 = a_5 - a_2 = a_3 - a_6.
+
+046.
+Find integer solutions (x,y) of the equation (1964 times "sqrt"):
+sqrt(x + sqrt(x + sqrt( ....(x + sqrt(x))....))) = y.
+
+047.
+Four perpendiculars are drawn from the vertices of a convex quadrangle
+to its diagonals.
+Prove that their bases make a quadrangle similar to the given one.
+
+048.
+Find all the natural n such that n! is not dividable by n^2.
+
+049.
+A honeybug crawls along the honeycombs with the unite length of their
+hexagons. He has moved from the node A to the node B along the shortest
+possible trajectory.
+Prove that the half of his way he moved in one direction.
+
+050.
+The quadrangle ABCD is outscribed around the circle with the
+centre O. Prove that the sum of AOB and COD angles equals 180 degrees.
+
+051.
+Given natural a,b,n. It is known, that for every natural k (k<>b) the
+number (a - k^n) is dividable by (b-k).  Prove that a = b^n.
+
+052.
+Given an expression x_1 : x_2 : ... : x_n (: means division).
+We can put the braces as we want. How many expressions can we obtain?
+
+053.
+We have to divide a cube onto k nonoverlapping tetrahedrons.
+For what smallest k is it possible?
+
+054.
+Find the smallest exact square with last digit not 0, such that after
+deleting its last two digits we shall obtain another exact square.
+
+055.
+Let ABCD be an outscribed trapezoid; E is a point of its diagonals
+intersection; r_1, r_2, r_3, r_4 -- the radiuses of the circles
+inscribed in the triangles ABE, BCE, CDE, DAE respectively.
+            1     1     1     1
+Prove that --- + --- = --- + ---.
+           r_1   r_3   r_2   r_4
+
+
+The fifth competition -- Moscow, 1965.
+
+        form
+           8  056a  057   058   059   060
+           9  061   062   063   064   065
+          10  056b  066   067a  068a  069
+          11  063   067b  070   068b  071
+
+056.
+a) Each of the numbers x_1, x_2, ... ,x_n can be 1, 0, or -1.
+   What is the minimal possible value of the sum of all products of
+   couples of those numbers.
+
+b) Each absolute value of the numbers x_1, x_2, ... ,x_n is less
+   than 1.  What is the minimal possible value of the sum of all
+   products of couples of those numbers.
+
+057.
+Given a board 3x3 and 9 cards with some numbers (known to the
+players). Two players, in turn, put those cards on the board.
+The first wins if the sum of the numbers in the first and the
+third row is greater than in the first and the third column.
+Prove that it doesn't matter what numbers are on the cards,
+but if the first plays the best way, the second can not win.
+
+058.
+A circle is outscribed around the triangle ABC. Chords, from the middle
+of the arc AC to the middles of the arcs AB and BC, intersect sides
+[AB] and [BC] in the points D and E.  Prove that (DE) is parallel to
+(AC) and passes through the centre of the inscribed circle.
+
+059.
+A bus ticket is considered to be lucky if the sum of the first three
+digits equals to the sum of the last three (6 digits in Russian buses).
+Prove that the sum of all the lucky numbers is dividable by 13.
+
+060.
+There is a lighthouse on a small island. Its lamp enlights a segment of
+a sea to the distance a. The light is turning uniformly, and the end of
+the segment moves with the speed v.
+Prove that a ship, whose speed doesn't exceed v/8 cannot arrive to the
+island without being enlightened.
+
+061.
+A society created in the help to the police contains 100 man exactly.
+Every evening 3 men are on duty.  Prove that You can not organise
+duties in such a way, that every couple will meet on duty once exactly.
+
+062.
+What is the maximal possible length of the segment, being cut out by
+the sides of the triangle on the tangent to the inscribed circle, being
+drawn parallel to the base, if the triangle's perimeter equals 2p?
+
+063.
+Given n^2 numbers x_{i,j} (i,j = 1,2,...,n) satisfying the system of
+n^3 equations:   x_{i,j} + x_{j,k} + x{k,i} = 0 (i,j,k = 1,...,n).
+Prove that there exist such a numbers a_1, a_2, ... , a_n;
+that for all i,j = 1,...n     x{i,j}= a_i - a_j.
+
+064.
+Is it possible to pose 1965 points inside the unit square to make every
+rectangle with the square 0.005 and sides parallel to the side of the
+square to contain at least one of those points?
+
+065.
+Quasi-rounding is a substitution one of the two closest integers
+instead of the given number.
+Given n numbers.  Prove that You can quasi-round them in such a way,
+that a sum of every subset of quasi-rounded numbers will deviate from
+the sum of the same subset of initial numbers not greater than (n+1)/4.
+
+066.
+The tourist has come to the Moscow by train.  All-day-long he wandered
+randomly through the streets.  Than he had a supper in the cafe on the
+square and decided to return to the station only through the streets
+that he has passed an odd number of times.
+Prove that he is always able to do that.
+
+067.
+a) A certain committee has gathered 40 times.  There were 10 members on
+   every meeting.  Not a single couple has met on the meetings twice.
+   Prove that there were no less then 60 members in the committee.
+b) Prove that You can not construct more then 30 subcommittees
+   of 5 members from the committee of 25 members, with no
+   couple of subcommittees having more than one common member.
+
+068.
+Given two relatively prime numbers p>0 and q>0.
+An integer n is called "good" if we can represent it as n = px + qy
+with nonnegative integers x and y, and "bad" in the opposite case.
+a) Prove that there exist integer c such that in a pair
+   {n, c-n} always one is "good" and one is "bad".
+b) How many there exist "bad" numbers.?
+
+069.
+An airplane-spy flies on the circumference with the centre A and radius
+10 km. Its speed is 1000 km/h. At the certain moment a rocket with the
+same speed starts from the point A and moves remaining on one line with
+the plain and A.  What time is necessary for it to hit the plane?
+/* remember, no advanced math. were known to the participants -VAP */
+
+070.
+Prove that the sum of the lengths of the polyhedron edges
+exceeds its tripled diameter (distance between two farest vertices).
+
+071.
+On the surface of the planet lives one inhabitant, that can move with
+the speed not greater than u.  A spaceship approaches to the planet wit
+its speed v.  Prove that if v/u > 10 , the spaceship can find the
+inhabitant, even it is trying to hide.
+
+
+The sixth competition -- Voronezh, 1966.
+
+        form
+           8  072   073a  074   075a  076
+           9  077   073b  075b  078   079
+        10,11 075b  080   081   082   083
+
+072.
+There is exactly one astronomer on every planet of a certain system. He
+watches the closest planet. The number of the planets is odd and all of
+the distances are different.
+Prove that there one planet being not watched.
+
+073.
+a) Points B and C are inside the segment [AD]. |AB|=|CD|.
+   Prove that for all of the points P on the plane holds
+   unequality |PA|+|PD| > |PB|+|PC|.
+
+b) Given four points A,B,C,D on the plane. For all of the points P
+   on the plane holds unequality |PA|+|PD| > |PB|+|PC|.
+   Prove that points B and C are inside the segment [AD] and |AB|=|CD|.
+
+074.
+Can both (x^2+y) and (y^2+x) be exact squares for natural x and y?
+
+075.
+a) Pupils of the 8-th form are standing in a row.  There is the pupil
+   of the 7-th form in before each, and he is smaller (in height) than
+   the elder.  Prove that if You will sort the pupils in each of rows
+   with respect to their height, every 8-former will still be taller
+   than the 7-former standing before him.
+b) An infantry detachment soldiers stand in the rectangle, being
+   arranged in columns with respect to their height.  Prove that if You
+   rearrange them with respect to their height in every separate row,
+   they will still be staying with respect to their height in columns.
+
+076.
+A rectangle ABCD is drawn on the cross-lined paper with its sides
+laying on the lines, and |AD| is k times more than |AB| (k is an
+integer). All the shortest paths from A to C coming along the lines are
+considered.  Prove that the number of those with the first link on [AD]
+is k times more then of those with the first link on [AB].
+
+077.
+Given the numbers a_1, a_2, ... , a_n, such that
+0 <= a_1 <= a_2 <= 2a_1,    a_2 <= a_3 <= 2a_2, ... ,
+a_{n-1} <= a_n <= 2a_{n-1},
+Prove that in the sum s = +-a_1 +-a_2 +- ... +- a_n
+You can choose appropriate signs to make 0 <= s <= a_1.
+
+078.
+Prove that You can always pose a circle of radius S/P
+inside a convex polygon with the perimeter P and area S.
+
+079.
+For three arbitrary crossroads A,B,C in a certain city there exist a
+way from A to B not coming through C.  Prove that for every couple of
+the crossroads there exist at least two non-intersecting ways
+connecting them.  (there are at least two crossroads in the city)
+
+080.
+Given a triangle ABC. Consider all the tetrahedrons PABC
+with PH -- the smallest of all tetrahedron's heights.
+Describe the set of all possible points H.
+
+081.
+Given 100 points on the plain.  Prove that You can cover them with a
+family of circles with the sum of their diameters less than 100 and the
+distance between any two of the circles more than one.
+
+082.
+The distance from A to B is d kilometres. A plain flying with the
+constant speed in the constant direction along and over the line (AB)
+is being watched from those points.  Observers have reported that the
+angle to the plain from the point A has changed by \alpha degrees and
+from B --- by \betha degrees within one second.
+What can be the minimal speed of the plain?
+
+083.
+20 Numbers are written on the board: 1, 2, ... ,20.  Two players are
+putting signs before the numbers in turn (+ or -). The first wants to
+obtain the minimal possible absolute value of the sum.
+What is the maximal value of the absolute value of the sum that can be
+achieved by the second player?
+
+
+     "Where is the beginning of that end,
+		that ends the beginning?"
+				Kozma Prutkov.
+
+	"If You see a title 'buffalo'
+		on the elephant's cage
+	     -- don't believe to Your eyes!"
+				Kozma Prutkov.
+
+The name has been changed -- the numeration was restarteded.
+
+The first competition -- Tbilisi, 1967.
+
+	form
+	   8  084a  085a  086a  087   088
+	   9  087b  086a  085b  084b  088
+	  10  090   086b  091   092   093
+
+084.
+a) The maximal height |AH| of the acute-angled triangle ABC equals the
+   median |BM|.  Prove that the angle ABC isn't greater than 60 degrees.
+b) The height |AH| of the acute-angled triangle ABC equals the median
+   |BM| and bisectrix |CD|.  Prove that the angle ABC is equilateral.
+085.
+a) The digits of a natural number were rearranged.  Prove that the sum
+   of given and obtained numbers can't equal 999...9 (1967 of nines).
+b) The digits of a natural number were rearranged.  Prove that if the
+   sum of the given and obtained numbers equals {10}^{10}, than the
+   given number was dividable by 10.
+
+086.
+a) A lamp of a lighthouse enlights an angle of 90 degrees.
+   Prove that You can turn the lamps of four arbitrary
+   posed lighthouses so, that all the plane will enlighted.
+b) There are eight lamps in eight points of the space.  Each can
+   enlight an octant (three-faced space angle with three mutually
+   orthogonal edges).
+  Prove that You can turn them so, that all the space will be enlighted.
+
+087.
+a) Can You pose the numbers 0,1,...,9 on the circumference in such a
+   way, that the difference between every two neighbours would be
+   either 3 or 4 or 5?
+b) The same question, but about the numbers 0,1,...,13.
+
+088.
+Prove that there exists a number dividable by 5^{1000}
+not containing a single zero in its decimal notation.
+
+089.
+Find all the integers x,y satisfying equation
+x^2 + x = y^4 + y^3 + y^2 + y.
+
+090.
+In the sequence of the natural (i.e. positive integers) numbers every
+member from the third equals the absolute value of the difference of
+the two previous.  What is the maximal possible length of such a
+sequence, if every member is less or equal to 1967?
+
+091.
+"KING-THE SUICIDER"
+Given a chess-board 1000x1000, 499 white castles and a black king.
+Prove that it does not matter neither the initial situation nor the way
+white plays, but the king can always move and stay under the check.
+
+092.
+Three vertices KLM of the rhombus (diamond) KLMN lays on
+the sides [AB], [BC] and [CD] of the given unit square.
+Find the area of the set of all the possible vertices N.
+
+093.
+Given natural number k with a property "if n is dividable by k, than
+the number, obtained from n by reversing the order of its digits is
+also dividable by k".  Prove that the k is a divisor of 99.
+
+
+The second competition -- Leningrad, 1968.
+
+  form        first day                    second day
+    8  094   095   096   097   098  | 105a  106   107   108   109
+    9  099   100   101   097   102  | 110   111   105a  108   109
+   10  103   095   104   097   096  | 105b  112   113   114   109
+
+094.
+Given an octagon with the equal angles. The lengths of all the sides
+are integers.  Prove that the opposite sides are equal in pairs.
+
+095.
+What is greater, {31}^{11} or {17}^{14}?
+/* calculators were not available - VAP */
+
+096.
+The circumference with the radius 100cm is drawn on the cross-lined
+paper with the side of the squares 1cm.  It neither comes through the
+vertices of the squares, nor touches the lines.  How many squares can
+it pass through?
+
+097.
+Some students on the faculty speak several languages and some - Russian
+only. 50 of them know English, 50 -- French and 50 -- Spanish.  Prove
+that it is possible to divide them onto 5 groups, not necessary equal,
+to get 10 of them knowing English, 10 -- French and 10 -- Spanish in
+each group.
+
+098.
+Prove the equality
+    2         4         6               20
+------- + ------- + ------- + ... + -------- =
+x^2 - 1   x^2 - 4   x^2 - 9         x^2 - 100
+
+            1             1                  1
+= 11 ( ----------- + --------- + .... + ----------- ).
+       (x-1)(x+10)   (x-2)(x+9)         (x-10)(x+1)
+
+099.
+The difference between the maximal and the minimal diagonals of the
+right n-angle equals to its side ( n > 5 ).  Find n.
+
+100.
+The sequence a_1, a_2, a_3, ... , is built according to the rule
+a_1 = 1, a_2 = a_1 + 1/a_1, ... , a_{n+1} = a_n + 1/a_n, ...
+Prove that a_{100} > 14.
+
+101.
+Given two acute-angled triangles ABC and A'B'C' with the points O and
+O' inside. Three pairs of the perpendiculars are drawn:
+[OA_1] to the side [BC], [O'A'_1] to the side [B'C'],
+[OB_1] to the side [AC], [O'B'_1] to the side [A'C'],
+[OC_1] to the side [AB], [O'C'_1] to the side [A'B'];
+it is known that
+[OA_1] is parallel to the [O'A'],
+[OB_1] is parallel to the [O'B'],
+[OC_1] is parallel to the [O'C'] and
+|OA_1|*|O'A'| = |OB_1|*|O'B'| = |OC_1|*|O'C'|.
+Prove that
+[O'A'_1] is parallel to the [OA],
+[O'B'_1] is parallel to the [OB],
+[O'C'_1] is parallel to the [OC] and
+|O'A'_1|*|OA| = |O'B'_1|*|OB| = |O'C'_1|*|OC|.
+
+102.
+Prove that You can represent an arbitrary number not exceeding n!
+(n-factorial; n!= 1*2*3*...*n) as a sum of k different numbers (k<=n)
+that are divisors of n!.
+
+103.
+Given a triangle ABC, point D on [AB], E on [AC]; |AD| = |DE| = |AC| ,
+|BD| = |AE| , DE is parallel to BC.  Prove that the length |BD| equals
+to the side of a right decagon (ten-angle) inscribed in a circle with
+the radius R=|AC|.
+
+104.
+Three spheres are built so that the edges [AB], [BC], [AD] of
+the tetrahedron ABCD are their respective diameters.
+Prove that the spheres cover all the tetrahedron.
+
+105.
+a)
++-----+-----+-----+-----+ The fields of the square table 4x4 are filled
+|  +  |  -  |  +  |  +  | with the "+" or "-" signs. You are allowed to
++-----+-----+-----+-----+ change the signs simultaneously in the whole
+|  +  |  +  |  +  |  +  | row, column, or diagonal to the opposite
++-----+-----+-----+-----+ sign.  That means, for example, that You can
+|  +  |  +  |  +  |  +  | change the sign in the corner square, because
++-----+-----+-----+-----+ it makes a diagonal itself.  Prove that You
+|  +  |  +  |  +  |  +  | will never manage to obtain a table
++-----+-----+-----+-----+ containing pluses only.
+b)
+The fields of the square table 8x8 are filled with the "+" or signs
+except one non-corner field with "-". You are allowed to change the
+signs simultaneously in the whole row, column, or diagonal to the
+opposite sign. That means, for example, that You can change the sign in
+the corner field, because it makes a diagonal itself.  Prove that You
+will never manage to obtain a table containing pluses only.
+
+106.
+Medians divide the triangle onto 6 smaller ones. 4 of the
+circles inscribed in those small ones are equal.
+Prove that the triangle is equilateral.
+
+107.
+Prove that the equation  x^2 + x + 1 = py  has solution
+(x,y) for the infinite number of simple p.
+
+108.
+Each of the 9 referees on the figure skating championship estimates the
+program of 20 sportsmen by assigning him a place (from 1 to 20). The
+winner is determined by adding those numbers. (The less is the sum -
+the higher is the final place).
+It was found, that for the each sportsman, the difference of the
+places, received from the different referees was not greater than 3.
+What can be the maximal sum for the winner?
+
+109.
+Two finite sequences a_1, a_2, ... , a_n; b_1, b_2, ... , b_n
+are just rearranged sequence 1, 1/2, ... , 1/n.
+a_1 + b_1 >= a_2 + b_2 >= ... >= a_n + b_n.
+Prove that for every m ( 1 <= m <= n ) a_m + a_n >= 4/m.
+
+110.
+There is scales on the teacher's table. There is a set of weighs on the
+scales, and there are some pupils' names (may be more than one) on the
+every weigh.  A pupil entering the classroom moves all the weight with
+his name to another side of the scales.  Prove that You can let in such
+a subset of the pupils, that the scales will change its position.
+
+111.
+The city is a rectangle divided onto squares by m streets coming from
+the West to the East and n streets coming from the North to the South.
+There are militioners (policemen) on the streets but not on the
+crossroads. They watch the certain automobile, moving along the closed
+route, marking the time and the direction of its movement. Its trace is
+not known in advance, but they know, that it will not pass over the
+same segment of the way twice.
+What is the minimal number of the militioners providing the unique
+determination of the route according to their reports?
+
+112.
+The circle inscribed in the triangle ABC touches the side [AC] in the
+point K.  Prove that the line connecting the middle of the [AC] side
+with the centre of the circle halves the [BK] segment.
+
+113.
+The sequence a_1, a_2, ... , a_n satisfies the following conditions:
+a_1 = 0,  |a_2| = |a_1 + 1|,  ... , |a_n| = |a_{n-1} + 1|.
+            a_1 + a_2 + ... + a_n      1
+Prove that --------------------- >= - -.
+                      n                2
+
+114.
+Given a quadrangle ABCD. The lengths of all its sides and diagonals are
+the rational numbers. Let O be the point of its diagonals intersection.
+Prove that |AO| - the length of the [AO] segment is also rational.
+
+
+The third competition -- Kiev, 1969.
+
+  form       first day         second day
+    8  115   116   117  | 122   123   124a
+    9  118   119   115  | 124   125   126
+   10  119   120   121  | 125   126   128
+
+115.
+The point E lies on the base [AD] of the trapezoid ABCD. The triangles
+ABE, BCE and CDE perimeters are equal.  Prove that |BC| = |AD|/2.
+
+116.
+There is a wolf in the centre of a square field, and four dogs in the
+corners. The wolf can easyly kill one dog, but two dogs can kill the
+wolf. The wolf can run all over the field, and the dogs -- along the
+fence (border) only.  Prove that if the dog's speed is 1.5 times more
+than the wolf's, than the dogs can prevent the wolf escaping.
+
+117.
+Given a finite sequence of 0's and 1's with two properties:
+-- if you chose five sequential digits in one place and in
+   the second place, those will be two different binary numbers.
+   (Some last digits of the first number may be included as
+   the first digits in the second.)
+-- if You add 0 or 1 either from the left or from the right
+   side, the previous property will not be held.
+Prove that the first four digits of that sequence coincide with the
+last four.
+
+118.
+Given positive numbers a,b,c,d.
+Prove that the set of unequalities
+a + b < c + d;
+(a + b)(c + d) < ab + cd;
+(a + b)cd < ab(c + d)
+contain at least one wrong.
+
+119.
+For what minimal natural a the polynomial ax^2 + bx + c with the
+integer c and b has two different positive roots both less than one.
+
+120.
+Given natural n. Consider all the fractions 1/(pq), where p and q are
+relatively prime;   0 < p < q <= n;   p+q > n.
+Prove that the sum of all such a fractions equals to 1/2.
+
+121.
+Given n points in the three dimensional space such, that the arbitrary
+triangle with the vertices in three of those points contains an angle
+greater than 120 degrees.
+Prove that You can rearrange them to make a polyline (unclosed) with
+all the angles between the sequent links greater than 120 degrees.
+
+122.
+Find four different three-digit decimal numbers starting with the same
+digit, such that their sum is dividable by three of them.
+
+123.
+Every city in the certain state is connected by airlines with no more
+than with three other ones, but one can get from every city to every
+other city changing a plane once only or directly.
+What is the maximal possible number of the cities?
+
+124.
+Given a pentagon with all equal sides.
+a) Prove that there exist such a point on the maximal diagonal,
+   that every side is seen from it inside a right angle.
+   /* I mean that the side AB is seen from the point C inside an
+   arbitrary angle that is greater or equal than angle ACB. - VAP */
+b) Prove that the circles build on its sides as on the diameters cannot
+   cover the pentagon entirely.
+
+125.
+Given an equation  x^3 + ?x^2 + ?x + ? = 0.  First player substitutes
+an integer on the place of one of the interrogative marks, than the
+same do the second with one of the two remained marks, and, finally,
+the first puts the integer instead of the last mark.
+Explain how can the first provide the existence of three integer roots
+in the obtained equation. (The roots may coincide.)
+
+126.
+20 football teams participate in the championship.  What minimal number
+of the games should be played to provide the property: from the three
+arbitrary teams we can find at least on pair that have already met in
+the championship.
+
+127.
+Let h_k be an apothem of the right k-angle inscribed into a circle with
+radius R.  Prove that (n + 1)h_{n+1} - nh_n > R.
+
+128.
+Prove that for the arbitrary positive a_1, a_2, ... , a_n
+helds unequality
+   a_1         a_2              a_{n-1}      a_n      n
+--------- + --------- + ... + --------- + --------- > -.
+a_2 + a_3   a_3 + a_4         a_n + a_1   a_1 + a_2   4
+..............
+
+
+The 4-th competition -- Simferopol, 1970.
+
+  form        first day                    second day
+    8  129   130   131   132   133a
+    9  134   135   133b  136   137
+   10  138   139   133b  136   140  | 141   142   143
+
+129.
+Given a circle, its diameter [AB] and a point C on it.  Build (with the
+help of compasses and ruler) two points X and Y, that are symmetric
+with respect to (AB) line, such that (YC) is orthogonal to (XA).
+
+130.
+The product of three positive numbers equals to one, their
+sum is strictly greater than the sum of the inversed numbers.
+Prove that one and only one of them is greater than one.
+
+131.
+How many sides of the convex polygon can equal its longest diagonal?
+
+132.
+The digits of the 17-digit number are rearranged in the reverse order.
+Prove that at list one digit of the sum of the new and the initial
+number is even.
+
+133.
+a) A castle is equilateral triangle with the side of 100 metres.  It is
+   divided onto 100 triangle rooms. Each wall between the rooms is 10
+   metres long and contain one door. You are inside and are allowed to
+   pass through every door not more than once.
+Prove that You can visit not more than 91 room (not exiting the castle).
+b) Every side of the triangle is divided onto k parts by the lines
+   parallel to the sides. And the triangle is divided onto k^2
+   small triangles. Let us call the "chain" such a sequence of
+   triangles, that every triangle in it is included only once,
+   and the consecutive triangles have the common side.
+   What is the greatest possible number of the triangles in the chain?
+
+134.
+Given five segments. It is possible to build
+a triangle of every subset of three of them.
+Prove that at least one of those triangles is acute-angled.
+
+135.
+The bisector [AD], the median [BM] and the height [CH] of
+the acute-angled triangle ABC intersect in one point.
+Prove that the angle BAC is greater than 45 degrees.
+
+136.
+Given five n-digit binary numbers. For each two numbers
+their digits coincide exactly on m places. There is no
+place with the common digit for all the five numbers.
+           2    m    3
+Prove that - <= - <= -.
+           5    n    5
+
+137.
+Prove that from every set of 200 integers You can choose a
+subset of 100 with the total sum dividable by 100.
+
+138.
+Given triangle ABC, middle M of the side [BC], the centre O of the
+inscribed circle. The line (MO) crosses the height AH in the point E.
+Prove that the distance |AE| equals the inscribed circle radius.
+
+139.
+Prove that for every natural number k there exists an infinite set of
+such natural numbers t, that the decimal notation of t does not contain
+zeroes and the sums of the digits of the numbers t and kt are equal.
+
+140.
+Two equal rectangles are intersecting in 8 points. Prove that the
+common part area is greater than the half of the rectangle's area.
+
+141.
+All the 5-digit numbers from 11111 to 99999 are written on
+the cards. Those cards lies in a line in an arbitrary order.
+Prove that the resulting 444445-digit number is not a power of two.
+
+142.
+All natural numbers containing not more than n digits are divided onto
+two groups. The first contains the numbers with the even sum of the
+digits, the second -- with the odd sum.  Prove that if  0 < k < n than
+the sum of the k-th powers of the numbers in the first group equals to
+the sum of the k-th powers of the numbers in the second group.
+
+143.
+The vertices of the right n-angle are marked with some colours
+(each vertex -- with one colour) in such a way, that the vertices
+of one colour represent the right polygon.
+Prove that there are two equal ones among the smaller polygons.
+
+
+The 5-th competition -- Riga, 1971.
+
+  form        first day                    second day
+    8  144   145a  146a  147        | 152ab 153   154
+    9  144   145a  148   147   146b | 156abc152c  155
+   10  149   145b  150   147   151b | 156   157   158
+
+144.
+Prove that for every natural n there exists a number, containing only
+digits "1" and "2" in its decimal notation, that is dividable by 2^n
+( n-th power of two ).
+
+145.
+a) Given a triangle A_1A_2A_3 and the points B_1 and D_2 on the side
+   [A_1A_2], B_2 and D_3 on the side [A_2A_3], B_3 and D_1 on the side
+   [A_3A_1].  If You build parallelograms A_1B_1C_1D_1, A_2B_2C_2D_2
+   and A_3B_3C_3D_3, the lines (A_1C_1), (A_2C_2) and (A_3C_3), will
+   cross in one point O.  Prove that if |A_1B_1| = |A_2D_2| and
+   |A_2B_2| = |A_3D_3|, than |A_3B_3| = |A_1D_1|.
+b) Given a convex polygon A_1A_2 ... A_n and the points
+   B_1 and D_2 on the side [A_1A_2],
+   B_2 and D_3 on the side [A_2A_3],
+    ........
+   B_n and D_1 on the side [A_nA_1].
+   If You build parallelograms A_1B_1C_1D_1, A_2B_2C_2D_2 ... ,
+   A_nB_nC_nD_n, the lines (A_1C_1), (A_2C_2), ..., (A_nC_n), will
+   cross in one point O.  Prove that
+   |A_1B_1|*|A_2B_2|*...*|A_nB_n| =  |A_1D_1|*|A_2D_2|*...*|A_nD_n|.
+
+146.
+a) A game for two. The first player writes two rows of ten numbers
+   each, the second under the first. He should provide the following
+   property: if number b is written under a, and d -- under c, then  a
+   + d = b + c. The second player has to determine all the numbers. He
+   is allowed to ask the questions like "What number is written in the
+   x place in the y row?" What is the minimal number of the questions
+   asked by the second player before he founds out all the numbers?
+b) There was a table mxn on the blackboard with the property:  if You
+   chose two rows and two columns, then the sum of the numbers in the
+   two opposite vertices of the rectangles formed by those lines equals
+   the sum of the numbers in two another vertices. Some of the numbers
+   are cleaned.  but it is still possible to restore all the table.
+   What is the minimal possible number of the remaining numbers?
+
+147.
+Given an unite square and some circles inside. Radius of each circle is
+less than 0.001, and there is no couple of points belonging to the
+different circles with the distance between them 0.001 exactly.
+Prove that the area, covered by the circles is not greater than 0.34.
+
+148.
+The volumes of the water containing in each of three big enough
+containers are integers. You are allowed only to relocate some times
+from one container to another the same volume of the water, that the
+destination already contains.
+Prove that You are able to discharge one of the containers.
+
+149.
+Prove that if the numbers p_1, p_2, q_1, q_2 satisfy the condition
+(q_1 - q_2)^2 + (p_1 - p_2)(p_1q_2 - p_2q_1) < 0, then the square
+polynomials x^2 + p_1x + q_1 and x^2 + p_2x + q_2 have real roots, and
+between the roots of each there is a root of another one.
+
+150.
+The projections of the body on two planes are circles.
+Prove that they have the same radius.
+
+151.
+Some numbers are written along the ring. If unequality (a-d)(b-c) < 0
+helds for the four arbitrary numbers in sequence a,b,c,d, You have to
+change the numbers b and c places.
+Prove that You will have to do this operation finite number of times.
+
+152.
+a) Prove that the line dividing the triangle onto two polygons with
+   equal perimeters and equal areas passes through the centre of the
+   inscribed circle.
+b) Prove the same statement for the arbitrary polygon outscribed around
+   the circle.
+c) Prove that all the lines halving its perimeter and area
+   simultaneously, intersect in one point.
+
+153.
+Given 25 different positive numbers.  Prove that You can choose two of
+them such, that none of the other numbers equals neither to the sum nor
+to the difference between the chosen numbers.
+
+154.
+a) The vertex A_1 of the right 12-angle (dodecagon) A_1A_2...A_{12} is
+   marked with "-" and all the rest -- with "+". You are allowed to
+   change the sign simultaneously in the 6 vertices in succession.
+   Prove that is impossible to obtain dodecagon with A_2 marked with
+   "-" and the rest of the vertices -- with "+".
+b) Prove the same statement if it is allowed to change the signs not in
+   six, but in four vertices in succession.
+c) Prove the same statement if it is allowed to change the signs in
+   three vertices in succession.
+
+155.
+N unit squares on the infinite sheet of cross-lined paper are painted
+with black colour.  Prove that You can cut out the finite number of
+square pieces and satisfy two conditions
+ - all the black squares are contained in those pieces.
+ - the area of black squares is not less than 1/5 and not greater than
+   4/5 of every piece area.
+
+-------------
+The task for the tenth form was as follows:
+"You are given three serious problems. Try to investigate at least one,
+but to obtain as many results, as You can.  At the end of Your work
+make a sort of resume, showing the main proved facts, challenged
+examples and the hypotheses that seem to be true ..."
+
+/* this form of competition was never repeated later - it had
+ required too much efforts from those who checked the works */
+-------------
+
+156.
+A cube with the edge of length n is divided onto n^3 unit ones. Let us
+choose some of them and draw three lines parallel to the edges through
+their centres.  What is the least possible number of the chosen small
+cubes necessary to make those lines cross all the smaller cubes?
+a) Find the answer for the small n (n = 2,3,4).
+b) Try to find the answer for n = 10.
+c) If You can not solve the general problem, try to estimate that value
+   from the upper and lower side.
+d) Note, that You can reformulate the problem in such a way:
+   Consider all the triples (x_1,x_2,x_3), where x_i can be one of the
+   integers 1,2,...,n. What is the minimal number of the triples
+   necessary to provide the property:  for each of the triples there
+   exist the chosen one, that differs only in one coordinate.  Try to
+   find the answer for the situation with more than three coordinates,
+   for example, with four.
+
+157.
+a) Consider the function f(x,y) = x^2 + xy + y^2.
+   Prove that for the every point (x,y) there exist such
+   integers (m,n), that f((x-m),(y-n)) <= 1/2.
+b) Let us denote with g(x,y) the least possible value of the
+   f((x-m),(y-n)) for all the integers m,n. The statement a)
+   was equal to the fact g(x,y) <= 1/2. Prove that in fact,
+   g(x,y) <= 1/3. Find all the points (x,y), where g(x,y)=1/3.
+c) Consider function f_a(x,y) = x^2 + axy + y^2 (0 <= a <= 2).  Find
+   any c such that g_a(x,y) <= c. Try to obtain the closest estimation.
+
+158.
+  1   2        1   2
+  |   |        |   |     The switch with two inputs and two
+  v   v        v   v     outputs can be in one of two
++-+---+-+    +-+---+-+   different positions. In the left
+| |   | |    | |   | |   part of the picture a) the first input
+|  \ /  |    | |   | |   is connected with the second output
+|   X   |    | |   | |   and we can denote this as
+|  / \  |    | |   | |   1 2
+| |   | |    | |   | |   | |   and the position in the right
++-+---+-+    +-+---+-+   V V   part of the picture   1 2
+  |   |        |   |     2 1   will be denoted as    | |
+  V   V        V   V                                 V V
+  1   2        1   2                                 1 2
+     fig.a)
+
+  1   2   3        The scheme on the picture b) is universal
+  |   |   |        in that sense that changing the state of
+  V   V   |        the element switches You can obtain all
++-+---+-+ |        the six connections, i.e.
+|       | |
+|       | |        1 2 3   1 2 3   1 2 3   1 2 3   1 2 3   1 2 3
++-+---+-+ |        | | |   | | |   | | |   | | |   | | |   | | |
+  |   |   |        V V V   V V V   V V V   V V V   V V V   V V V
+  |   V   V        1 2 3   1 3 2   2 1 3   2 3 1   3 1 2   3 2 1
+  | +-+---+-+
+  | |       |      (Check it. Note, that the total number of the
+  | |       |      states is 2^3 = 8, because each element
+  | +-+---+-+      can be in two positions.)
+  |   |   |
+  V   V   |
++-+---+-+ |
+|       | |
+|       | |
++-+---+-+ |
+  |   |   |
+  V   V   V
+  1   2   3
+     fig.b)
+
+a) Try to build the universal scheme for 4 inputs and 4 outputs,
+   that can provide all of 24 possible connections.
+b) What is the minimal number of the element switches for such a
+   scheme?
+Let us call a scheme with n inputs and n outputs n-universal, if it can
+provide all n! possible connections of n inputs with n outputs.
+c) Here is the scheme (picture c) with 8 inputs and 8 outputs, where A
+   and B are 4-universal.  Prove that it is 8-universal.
+
+  1        2        3        4             5        6        7        8
+  |        |        |        |             |        |        |        |
+  V  V     V  V     V  V     V  V       V  V     V  V     V  V     V  V
++-+--+-+ +-+--+-+ +-+--+-+ +-+--+-+   +-+--+-+ +-+--+-+ +-+--+-+ +-+--+-+
+|      | |      | |      | |      |   |      | |      | |      | |      |
+|      | |      | |      | |      |   |      | |      | |      | |      |
++-+--+-+ +-+--+-+ +-+--+-+ +-+--+-+   +-+--+-+ +-+--+-+ +-+--+-+ +-+--+-+
+  |    \   |    \   |    \   |    \   /    |   /    |   /    |   /    |
+  |     \  |     \  |     \  |     \ /     |  /     |  /     |  /     |
+  |      \ |      \ |      \ |      X      | /      | /      | /      |
+ ......................................................................
+
+  |/       |/       |/       |/           \|       \|       \|       \|
++-+--------+--------+--------+----+   +----+--------+--------+--------+-+
+|                                 |   |                                 |
+|              A                  |   |               B                 |
+|                                 |   |                                 |
++-+--------+--------+--------+----+   +----+--------+--------+--------+-+
+  |\       |\       |\       |\           /|       /|       /|       /|
+ ......................................................................
+
+  |    /   |    /   |    /   |    /   \    |   \    |   \    |   \    |
+  |   /    |   /    |   /    |   /     \   |    \   |    \   |    \   |
+  V  V     V  V     V  V     V  V       V  V     V  V     V  V     V  V
++-+--+-+ +-+--+-+ +-+--+-+ +-+--+-+   +-+--+-+ +-+--+-+ +-+--+-+ +-+--+-+
+|      | |      | |      | |      |   |      | |      | |      | |      |
+|      | |      | |      | |      |   |      | |      | |      | |      |
++-+--+-+ +-+--+-+ +-+--+-+ +-+--+-+   +-+--+-+ +-+--+-+ +-+--+-+ +-+--+-+
+  |        |        |        |             |        |        |        |
+  V        V        V        V             V        V        V        V
+  1        2        3        4             5        6        7        8
+
+     fig.c)
+
+d) Estimate the upper and lower bound for the number of the element
+   switches in the n-universal scheme.
+
+
+The 6-th competition -- Chelyabinsk, 1972.
+
+  form        first day                    second day
+    8  159   160   161        | 166   167   168
+    9  162a  163   161   164  | 169   170   171
+   10  162b  163   165   164  | 166   172   173
+
+159.
+Given a rectangle ABCD, points M -- the middle of [AD] side, N -- the
+middle of [BC]  side. Let us take a point P on the continuation of the
+[DC] segment over the point D. Let us denote the point of intersection
+of lines (PM) and (AC) as Q.
+Prove that the angles QNM and MNP are equal.
+
+160.
+Given 50 segments on the line. Prove that one of the following
+statements is valid.
+ 1. Some 8 segments have the common point.
+ 2. Some 8 segments do not intersect each other.
+
+161.
+Find the maximal x such that the expression   4^{27} + 4^{1000} + 4^x
+is the exact square.
+
+162.
+a) Let a,n,m be natural numbers, a > 1.  Prove that if (a^m + 1) is
+   dividable by (a^n + 1) than m is dividable by n.
+b) Let a,b,n,m be natural numbers, a > 1, a and b are relatively prime.
+   Prove that if (a^m + b^m) is dividable by (a^n + b^n) than m is
+   dividable by n.
+
+163.
+        2         The triangle table is built according to the rule:
+       / \         You put the natural number a>1 in the upper row, and
+     /     \         then You write under the number k from the left
+    4       3          side k^2, and from the right side -- (k+1).  For
+  /  \     /  \           example, if a = 2, You get the table on the
+ 16   5   9    4            picture.  Prove that all the numbers on
+/ \  / \  /\  / \             each particular line are different.
+
+164.
+Given several squares with the total area 1.  Prove that You can pose
+them in the square of the area 2 without any intersections.
+
+165.
+Let O be the intersection point of the of the convex quadrangle ABCD
+diagonals.  Prove that the line drawn through the points of
+intersection of the medians of AOB and COD triangles is orthogonal to
+the line drawn through the points of intersection of the heights of BOC
+and AOD triangles.
+
+166.
+Each of the 9 straight lines divides the given square onto two
+quadrangles with the areas related as 2:3.  Prove that there exist
+three of them intersecting in one point.
+
+167.
+The 7-angle A_1A_2A_3A_4A_5A_6A_7 is inscribed in a circle.
+Prove that if the centre of the circle is inside the 7-angle, than the
+sum of A_1,A_2 and A_3 angles is less than 450 degrees.
+
+168.
+A game for two. One gives a digit and the second substitutes
+it instead of a star in the following difference:
+    **** - **** =
+Then the first gives the next digit, and so on 8 times.
+The first wants to obtain the greatest possible difference,
+the second -- the least.  Prove that:
+ 1. The first can operate in such a way that the difference would be
+ not less than 4000, not depending on the second's behaviour.
+ 2. The second can operate in such a way that the difference would be
+ not greater than 4000, not depending on the first's behaviour.
+
+169.
+Let x,y be positive numbers, s -- the least of { x, (y+ 1/x), 1/y}.
+What is the greatest possible value of s? To what x and y does it
+correspond?
+
+170.
+The point O inside the convex polygon makes isosceles triangle with all
+the pairs of its vertices.
+Prove that O is the centre of the outscribed circle.
+
+171.
+Is it possible to put the numbers 0,1 or 2 in the unit squares of the
+cross-lined paper 100x100 in such a way, that every rectangle 3x4 (and
+4x3) would contain three zeros, four ones and five twos?
+
+172.
+Let the sum of positive numbers x_1, x_2, ... , x_n be 1.
+Let s be the greatest of the numbers
+ x_1         x_2                      x_n
+-------, -------------, ... , -------------------.
+1 + x_1  1 + x_1 + x_2        1 + x_1 + ... + x_n
+What is the minimal possible s? What x_i correspond it.
+/* Derivatives were not included in the school plans in
+   Russia. They expected another solution. -VAP */
+
+173.
+One-round hockey tournament is finished (each plays with each one time,
+the winner gets 2 points, looser -- 0, and 1 point for draw). For
+arbitrary subgroup of teams there exists a team (may be from that
+subgroup) that has got an odd number of points in the games with the
+teams of the subgroup.
+Prove that there was even number of the participants.
+
+
+The 7-th competition -- Kishenew, 1973.
+
+  form        first day        second day
+    8  174a  175   176  | 182   183   184ab
+    9  174b  177   178  | 179   185   186   184c
+   10  180   177   181  | 187   188   184c
+
+174.
+Fourteen coins are submitted to the judge. An expert knows, that the
+coins from number one to seven are false, and from 8 to 14 -- normal.
+The judge is sure only that all the true coins have the same weight and
+all the false coins weights equal each other, but are less then the
+weight of the true coins.  The expert has the scales without weights.
+a) The expert wants to prove, that the coins 1--7 are false.
+   How can he do it in three weighings?
+b) How can he prove, that the coins 1--7 are false and the coins 8--14
+   are true in three weighings?
+
+175.
+Prove that 9-digit number, that contains all the decimal digits except
+zero and does not ends with 5 can not be exact square.
+
+176.
+Given n points, n > 4. Prove that You can connect them with arrows, in
+such a way, that You can reach every point from every other point,
+having passed through one or two arrows. (You can connect every pair
+with one arrow only, and move along the arrow in one direction only.)
+
+177.
+Given an angle with the vertex O and a circle touching its sides in the
+points A and B. A ray is drawn from the point A parallel to [OB). It
+intersects with the circumference in the point C. The segment [OC]
+intersects the circumference in the point E. The straight lines (AE)
+and (OB) intersect in the point K.  Prove that |OK| = |KB|.
+
+178.
+The real numbers a,b,c satisfy the condition: for all x, such
+that -1 <= x <= 1, helds unequality | ax^2 + bx + c | <= 1.
+Prove that for the same x helds | cx^2 + bx + a | <= 2.
+
+179.
+The tennis federation has assigned numbers to 1024 sportsmen,
+participating in the tournament, according to their skill.  (The tennis
+federation uses the olympic system of tournaments.  The looser in the
+pair leaves, the winner meets with the winner of another pair. Thus, in
+the second tour remains 512 participants, in the third -- 256, et.c.
+The winner is determined after the tenth tour.) It comes out, that in
+the play between the sportsmen whose numbers differ more than on 2
+always win that whose number is less.
+What is the greatest possible number of the winner?
+
+180.
+The square polynomial f(x) = ax^2 + bx + c is of such a sort,
+that the equation f(x) = x does not have real roots.
+Prove that the equation f(f(x)) does not have real roots also.
+
+181.
+n squares of the infinite cross-lined sheet of paper are painted
+with black colour (others are white). Every move all the squares
+of the sheet change their colour simultaneously. The square gets
+the colour, that had the majority of three ones: the square itself,
+its neighbour from the right side and its neighbour from the upper side.
+a) Prove that after the finite number of the moves all the black
+   squares will disappear.
+b) Prove that it will happen not later than on the n-th move.
+
+182.
+Three similar acute-angled triangles AC_1B, BA_1C and CB_1A are built
+on the outer side of the acute-angled triangle ABC.  (Equal triples of
+the angles are AB_1C, ABC_1, A_1BC and BA_1C, BAC_1, B_1AC.)
+a) Prove that the circumferences outscribed around the outer
+   triangles intersect in one point.
+b) Prove that the straight lines AA_1, BB_1 and CC_1
+   intersect in the same point.
+
+183.
+N men are not acquainted each other. You need to introduce some of them
+to some of them in such a way, that all the men will have different
+number of the acquaintances.  Prove that it is possible for all N.
+
+184.
+The king have revised the chess-board 8x8 having visited all the fields
+once only and returned to the starting point.  When his trajectory was
+drawn (the centres of the squares were connected with the straight
+lines), a closed broken line without self-intersections appeared.
+a) Give an example that the king could make 28 steps parallel
+   the sides of the board only.
+b) Prove that he could not make less than 28 such a steps.
+c) What is the maximal and minimal length of the broken line
+   if the side of a field is 1?
+
+185.
+Given a triangle with a,b,c sides and with the area 1.  a >= b >= c.
+Prove that b^2 >= 2.
+
+186.
+Given a convex n-angle with pairwise (mutually) non-parallel sides
+/* who knows Russian -- a letter "r" had broken on the
+   organising committee's typewriter - and it became
+   an inexhaustible source of jokes for some years */
+and a point inside it.  Prove that there are not more than n straight
+lines coming through that point and halving the area of the n-angle.
+
+187.
+Prove that for every positive x_1, x_2, x_3, x_4, x_5 helds inequality:
+(x_1 + x_2 + x_3 + x_4 + x_5)^2 >=
+      >= 4(x_1x_2 + x_3x_4 + x_5x_1 + x_2x_3 + x_4x_5).
+
+188.
+Given 4 points in three-dimensional space, not lying in one plane.
+What is the number of such a parallelepipeds (bricks), that each point
+is a vertex of each parallelepiped?
+
+
+The 8-th competition -- Erevan, 1974.
+
+  form        first day                    second day
+    8  189abc190   191       | 197   198   199   200a
+    9  190   192   189d 193  | 201   202   200b
+   10  194   195   196  193  | 203   204   200b
+
+189.
+a,b,c) Given some cards with either "-1" or "+1" written on the opposite
+side.  You are allowed to choose a triple of cards and ask about the
+product of the three numbers on the cards.  What is the minimal number
+of questions allowing to determine all the numbers on the cards ...
+a) for 30 cards,
+b) for 31 cards,
+c) for 32 cards.
+(You should prove, that You cannot manage with less questions.)
+d) Fifty abovementioned cards are lying along the circumference.  You
+   are allowed to ask about the product of three consecutive numbers
+   only. You need to determine the product af all the 50 numbers.
+   What is the minimal number of questions allowing to determine it?
+
+190.
+Among all the numbers representable as {36}^k - 5^l (k and l are
+natural numbers) find the smallest.
+Prove that it is really the smallest.
+
+191.
+a) Each of the side of the convex hexagon (6-angle) is longer
+   than 1. Does it necessary have a diagonal longer than 2?
+b) Each of the main diagonals of the convex hexagon is longer
+   than 2. Does it necessary have a side longer than 1?
+
+192.
+Given two circles with the radiuses R and r, touching each other from
+the outer side. Consider all the trapezoids, such that its lateral
+sides touch both circles, and its bases touch different circles.
+Find the shortest possible lateral side.
+
+193.
+Given n vectors of unit length in the plane. The length of
+their total sum is less than one. Prove that You can
+rearrange them to provide the property: for every k, k<= n,
+the length of the sum of the first k vectors is less than 2.
+
+194.
+Find all the real a,b,c such that the equality
+|ax + by + cz| + |bx + cy + az| + |cx + ay + bz| = |x| + |y| + |z|
+is valid for all the real x,y,z.
+
+195.
+Given a square ABCD. Points P and Q are in the sides [AB] and
+[BC] respectively. |BP| = |BQ|. Let H be the base of the
+perpendicular from the point B to the segment [PC].
+Prove that the angle DHQ is a right one.
+
+196.
+Given some red and blue points. Some of them are connected by the
+segments. Let us call "exclusive" the point, if its colour differs from
+the colour of more than half of the connected points. Every move one
+arbitrary "exclusive" point is repainted to the other colour.
+Prove that after the finite number of moves there will remain no
+"exclusive" points.
+
+197.
+Find all the natural n and k such that n^n has k digits and k^k has n
+digits.
+
+198.
+Given points D and E on the legs [CA] and [CB], respectively, of the
+isosceles right triangle. |CD| = |CE|. The extensions of the
+perpendiculars from D and C to the line AE cross the hypotenuse AB in
+the points K and L.  Prove that |KL| = |LB|.
+
+199.
+Two are playing the game "cats and rats" on the chess-board 8x8. The
+first has one piece -- a rat, the second -- several pieces -- cats. All
+the pieces have four available moves -- up, down, left, right -- to the
+neighbour field, but the rat can also escape from the board if it is on
+the boarder of the chess-board. If they appear on the same field -- the
+rat is eaten. The players move in turn, but the second can move all the
+cats in independent directions.
+a) Let there be two cats. The rat is on the interior field.
+   Is it possible to put the cats on such a fields on the border
+   that they will be able to catch the rat?
+b) Let there be three cats, but the rat moves twice diring the
+   first turn. Prove that the rat can escape.
+
+200.
+a) Prove that You can rearrange the numbers 1, 2, ... , 32 in
+   such a way, that for every couple of numbers none of the
+   numbers between them will equal their arithmetic mean.
+b) Can You rearrange the numbers 1, 2, ... , 100 in such a way,
+   that for every couple of numbers none of the numbers between
+   them will equal their arithmetic mean?
+
+201.
+Find all the three-digit numbers such that it equals to the arithmetic
+mean of the six numbers obtained by rearranging its digits.
+
+202.
+Given a convex polygon. You can put no triangle with area 1 inside it.
+Prove that You can put the polygon inside a triangle with the area 4.
+
+203.
+Given a function f(x) on the segment 0 <= x <= 1.  For all x,
+f(x) >= 0; f(1) = 1.  For all the couples of x_1, x_2 such, that all
+the arguments are in the segment  f(x_1 + x_2) >= f(x_1) + f(x_2).
+a) Prove that for all x helds f(x) <= 2x.
+b) Is the inequality f(x) <= {1.9}x valid?
+
+204.
+Given a triangle ABC with the are 1. Let A',B' and C' are
+the middles of the sides [BC], [CA] and [AB] respectively.
+What is the minimal possible area of the common part of
+two triangles A'B'C' and KLM, if the points K,L and M
+are lying on the segments [AB'], [CA'] and [BC'] respectively?
+
+
+The 9-th competition -- Saratov, 1975.
+
+  form        first day                    second day
+    8  205a  206   207   208a | 213   214   215
+    9  209   206   210   208b | 216   215   217
+   10  211   212   205b  208  | 214   218   219
+
+205.
+a) The triangle ABC was turned around the centre of the outscribed
+   circle by the angle less than 180 degrees and thus was obtained the
+   triangle A_1B_1C_1. The corresponding segments [AB] and [A_1B_1]
+   intersect in the point C_2; [BC] and [B_1C_1] -- A_2; [AC] and
+   [A_1C_1] -- B_2.
+   Prove that the triangle A_2B_2C_2 is similar to the triangle ABC.
+b) The quadrangle ABCD was turned around the centre of the outscribed
+   circle by the angle less than 180 degrees and thus was obtained
+   the quadrangle A_1B_1C_1D_1.
+   Prove that the points of intersection of the corresponding lines
+   ( (AB) and (A_1B_1), (BC) and (B_1C_1), (CD) and (C_1D_1),
+   (DA) and (D_1A_1) ) are the vertices of the parallelogram.
+
+206.
+Given a triangle ABC with the unit area. The first player chooses a
+point X on the side [AB], than the second -- Y on [BC] side, and,
+finally, the first chooses a point Z on [AC] side. The first tries to
+obtain the greatest possible area of the XYZ triangle, the second --
+the smallest.  What area can obtain the first for sure and how?
+
+207.
+What is the smallest perimeter of the convex 32-angle, having all the
+vertices in the nodes of cross-lined paper with the sides of its
+squares equal to 1?
+
+208.
+a) Given a big square consisting of 7x7 squares. You should mark the
+   centres of k points in such a way, that no quadruple of the marked
+   points will be the vertices of a rectangle with the sides parallel
+   to the sides of the given squares.
+   What is the greatest k such that the problem has solution?
+b) The same problem for {13}x{13} square.
+
+209.
+Denote the middles of the convex hexagon A_1A_2A_3A_4A_5A_6 diagonals
+A_6A_2, A_1A_3, A_2A_4, A_3A_5, A_4A_6, A_5A_1 as B_1, B_2, B_3, B_4,
+B_5, B_6 respectively.  Prove that if the hexagon B_1B_2B_3B_4B_5B_6 is
+convex, than its area equals to the quarter of the initial hexagon.
+
+210.
+Prove that it is possible to find 2^{n+1} of 2^n digit numbers
+containing only "1" and "2" as digits, such that every two of them
+distinguish at least in 2^{n-1} digits.
+
+211.
+Given a finite set of polygons in the plane.
+Every two of them have a common point.
+Prove that there exists a straight line, that crosses all the polygons.
+
+212.
+Prove that for all the positive numbers a,b,c the following unequality
+is valid:
+a^3 + b^3 + c^3 + 3abc > ab(a + b) + bc(b + c) + ac(a + c).
+
+213.
+Three flies are crawling along the perimeter of the ABC triangle in
+such a way, that the centre of their masses is a constant point.  One
+of the flies has already passed along all the perimeter.
+Prove that the centre of the flies' masses coincides with the centre of
+masses of the ABC triangle. (The centre of masses for the triangle is
+the point of medians intersection.)
+
+214.
+Several zeros, ones and twos are written on the blackboard.  An
+anonymous clean in turn pairs of different numbers, writing, instead of
+cleaned, the number not equal to each. (0 instead of pair {1,2}; 1
+instead of {0,2}; 2 instead of {0,1}).  Prove that if there remains one
+number only, it does not depend on the processing order.
+
+215.
+Given a horizontal strip on the plane (its sides are parallel lines)
+and n lines intersecting the strip. Every two of them intersect inside
+the strip, and not a triple has a common point.  Consider all the paths
+along the segments of those lines, starting on the lower side of the
+strip and ending on the upper side with the properties: moving along
+such a path we are constantly rising up, and, having reached the
+intersection, we are obliged to turn to another line.  Prove that:
+a) there are not less than n/2 such a paths without common points;
+b) there is a path consisting of not less than of n segments;
+c) there is a path that goes along not more than along n/2+1 lines;
+d) there is a path that goes along all the n lines.
+
+216.
+For what k is it possible to construct a cube kxkxk of the black
+and white cubes 1x1x1 in such a way that every small cube has
+the same colour, that have exactly two his neighbours. (Two cubes
+are neighbours, if they have the common face.)
+
+217.
+Given a polynomial P(x) with
+a) natural coefficients;
+b) integer coefficients;
+Let us denote with a_n the sum of the digits of P(n) value.
+Prove that there is a number encountered in the sequence
+a_1, a_2, ... , a_n, ... infinite times.
+
+218.
+The world and the european champion are determined in the same
+tournament carried in one round. There are 20 teams and k of them are
+european. The european champion is determined according to the results
+of the games only between those k teams. What is the greatest k such
+that the situation, when the single european champion is the single
+world outsider, is possible if:
+a) it is hockey (draws allowed)?
+b) it is volleyball (no draws)?
+
+219.
+a) Given real numbers a_1,a_2,b_1,b_2 and positive p_1,p_2,q_1,q_2.
+   Prove that in the table 2x2
+
+     a_1 + b_1     a_1 + b_2
+     ---------     ---------
+     p_1 + q_1     p_1 + q_2
+
+     a_2 + b_1     a_2 + b_2
+     ---------     ---------
+     p_2 + q_1     p_2 + q_2
+
+   there is a number in the table, that is not less than another number
+   in the same row and is not greater than another number in the same
+   column (a saddle point).
+b) Given real numbers a_1, a_2, ... , a_n; b_1, b_2, ... , b_n
+   and positive p_1, p_2,  ... , p_n; q_1, q_2, ... , q_n.
+   We build the table nxn, with the numbers (0 < i,j <= n)
+
+     a_i + b_j
+     ---------
+     p_i + q_j
+
+   in the intersection of the i-th row and j-th column.
+   Prove that there is a number in the table, that is not less than
+   arbitrary number in the same row and is not greater than arbitrary
+   number in the same column (a saddle point).
+
+
+The 10-th competition -- Dushanbe, 1976.
+
+  form        first day                    second day
+    8  220   221   222ab 223        | 229   230   231
+    9  222b  224   223   225        | 230   232   231
+   10  223   226   227   228   225  | 233   234   231
+
+220.
+There are 50 exact watches lying on a table.  Prove that there exist a
+certain moment, when the sum of the distances from the centre of the
+table to the ends of the minute hands is more than the sum of the
+distances from the centre of the table to the centres of the watches.
+
+221.
+A row of 1000 numbers is written on the blackboard.  We write a new
+row, below the first according to the rule: We write under every number
+a the natural number, indicating how many times the number a is
+encountered in the first line. Then we write down the third line:
+under every number b -- the natural number, indicating how many times
+the number b is encountered in the second line, and so on.
+
+a) Prove that there is a line that coincides with the preceding one.
+b) Prove that the eleventh line coincides with the twelfth.
+c) Give an example of the initial line such, that the tenth row differs
+   from the eleventh.
+
+222.
+Given three circumferences of the same radius in a plane.
+a) All three are crossing in one point K. Consider three arcs AK,CK,EK
+   : the A,C,E are the points of the circumferences intersection and
+   the arcs are taken in the clockwise direction.  (Sorry, no picture.
+   Every arc is inside one circle, outside the second and on the border
+   of the third one) Prove that the sum of the arcs is 180 degrees.
+b) Consider the case, when the three circles give a curvilinear
+   triangle BDF as there intersection (instead of one point K).
+   Prove that the sum of the AB, CD and EF arcs is 180 degrees.
+   (The arcs are taken in the clockwise direction. Every arc is inside
+   one circle, outside the second and on the border of the third one)
+
+223.
+The natural numbers x_1 and x_2 are less than 1000. We build a sequence:
+x_3 = |x_1 - x_2|;
+x_4 = min { |x_1 - x_2|, |x_1 - x_3|, |x_2 - x_3|};
+  .......
+x_k = min { |x_i - x_j|; 0 <i < j < k};
+  .......
+Prove that x{21} = 0.
+
+224.
+Can You mark the cube's vertices with the three-digit binary
+numbers in such a way, that the numbers at all the possible
+couples of neighbouring vertices differ in at least two digits?
+
+225.
+Given 4 vectors a,b,c,d in the plane, such that a + b + c + d = 0.
+Prove that helds inequality:
+|a| + |b| + |c| + |d| >= |a + d| + |b + d| + |c + d|.
+
+226.
+Given right 1976-angle. The middles of all the sides and diagonals are
+marked. What is the greatest number of the marked points lying on one
+circumference?
+
+227.
+There are n rectangles drawn on the rectangular sheet of paper with the
+sides of the rectangles parallel to the sheet sides.  The rectangles do
+not have pairwise common interior points.  Prove that after cutting out
+the rectangles the sheet will split into not more than n+1 part.
+
+228.
+There are three straight roads. Three pedestrians are moving
+along those roads, and they are NOT on one line in the initial
+moment. Prove that they will be one line not more than twice.
+
+229.
+Given a chess-board 99x99 with a set F of fields marked on it (the set
+is different in three tasks). There is a beetle sitting on every field
+of the set F. Suddenly all the beetles have raised into the air and
+flied to another fields of the same set. The beetles from the
+neighbouring fields have landed either on the same field or on the
+neighbouring ones (may be far from their starting point). (We consider
+the fields to be neighbouring if they have at least one common vertex.)
+   Consider a statement: "There is a beetle, that either stayed on the
+same field or moved to the neighbouring one".  Is it always valid if
+the figure F is:
+a) A central cross, i.e. the union of
+   the 50-th row and the 50-th column?
+b) A window frame, i.e. the union of
+   the 1-st, 50-th and 99-th rows and
+   the 1-st, 50-th and 99-th columns?
+c) All the chess-board?
+
+230.
+Let us call "big" a triangle with all sides longer than 1.  Given a
+equilateral triangle with all the sides equal to 5.   Prove that:
+a) You can cut 100 big triangles out of given one.
+b) You can divide the given triangle onto 100 big
+   nonintersecting ones fully covering the initial one.
+c) The same as b), but the triangles either do not have
+   common points, or have one common side, or one common vertex.
+d) The same as c), but the initial triangle has the side 3.
+
+231.
+Given natural n. We shall call "universal" such a sequence of natural
+number a_1, a_2, ... , a_k; k>=n, if we can obtain every transposition
+of the first n natural numbers (i.e such a sequence of n numbers, that
+every one is encountered only once) by deleting some its members.
+(Examples: (1,2,3,1,2,1,3) is universal for n=3, and (1,2,3,2,1,3,1) --
+not, because You can't obtain (3,1,2) from it.) The goal is to estimate
+the length of the shortest universal sequence for given n.
+a) Give an example of the universal sequence of n^2 members.
+b) Give an example of the universal sequence of (n^2 -n + 1) members.
+c) Prove that every universal sequence contains not less than
+   n(n + 1)/2 members
+d) Prove that the shortest universal sequence for n=4 contains
+   12 members
+e) Find as short universal sequence, as You can. The Organising
+   Committee knows the method for (n^2 - 2n +4) members.
+
+232.
+n numbers are written down along the circumference. Their
+sum equals to zero, and one of them equals 1.
+a) Prove that there are two neighbours with their difference
+   not less than n/4.
+b) Prove that there is a number that differs from the arithmetic
+   mean of its two neighbours not less than on 8/{n^2}.
+c) Try to improve the previous estimation, i.e what number can be
+   used instead of 8?
+d) Prove that for n=30 there is a number that differs from the
+   arithmetic mean of its two neighbours not less than on 2/113;
+   give an example of such 30 numbers along the circumference,
+   that not a single number differs from the arithmetic mean of
+   its two neighbours more than on 2/113.
+
+233.
+Given right n-angle wit the point O -- its centre. All the vertices
+are marked either with +1 or -1. We may change all the signs in the
+vertices of right k-angle (2 <= k <= n) with the same centre O.
+(By 2-angle we understand a segment, being halved by O.)
+Prove that in a), b) and c) cases there exists such a set of
+(+1)s and (-1)s, that we can never obtain a set of (+1)s only.
+a) n = 15;
+b) n = 30;
+c) n > 2;
+d) Let us denote K(n) the maximal number of (+1) and (-1) sets
+   such, that it is impossible to obtain one set from another.
+   Prove, for example, that K(200) = 2^{80}.
+
+234.
+Given a sphere of unit radius with the big circle (i.e of unit radius)
+that will be called "equator". We shall use the words "pole",
+"parallel","meridian" as self-explanatory.
+a) Let g(x), where x is a point on the sphere, be the distance from
+   this point to the equator plane.  Prove that g(x) has the property
+        if x_1, x_2, x_3 are the ends of the pairwise orthogonal
+        radiuses, than g(x_1)^2 + g(x_2)^2 + g(x_3)^2 = 1. (*)
+Let function f(x) be an arbitrary nonnegative
+function on a sphere that satisfies (*) property.
+b) Let x_1 and x_2 points be on the same meridian between the
+   north pole and equator, and x_1 is closer to the pole than x_2.
+   Prove that f(x_1) > f(x_2).
+c) Let y_1 be closer to the pole than y_2.
+   Prove that f(y_1) > f(y_2).
+d) Let z_1 and z_2 be on the same parallel.
+   Prove that f(z_1) = f(z_2).
+e) Prove that for all x f(x) = g(x).
+
+
+The 11-th competition -- Tallinn, 1977.
+
+  form        first day                    second day
+    8  235   236   237b  238        | 243   244ab 245   246
+    9  237a  239   235   240        | 247   248   249   250
+   10  237a  239   241   242   235  | 251   244   246
+
+235.
+Given a closed broken line without self-intersections in a plane.  Not
+a triple of its vertices belongs to one straight line. Let us call
+"special" a couple of line's segments if the one's continuation
+intersects another.  Prove that there is even number of special pairs.
+
+236.
+Given several points, not all lying on one straight line. Some number
+is assigned to every point. It is known, that if a straight line
+contains two or more points, than the sum of the assigned to those
+points equals zero.  Prove that all the numbers equal to zero.
+
+237.
+a) Given a circle with two inscribed triangles T_1 and T_2. The
+   vertices of T_1 are the middles of the arcs with the ends in the
+   vertices of T_2. Consider a hexagon -- the intersection of T_1 and
+   T_2.  Prove that its main diagonals are parallel to T_1 sides and
+   are intersecting in one point.
+b) The segment, that connects the middles of the arcs AB and AC of the
+   circle outscribed around the ABC triangle, intersects [AB] and [AC]
+   sides in D and K points.  Prove that the points A,D,K and O -- the
+   centre of the circle -- are the vertices of a diamond.
+
+238.
+Several black an white checkers (tokens?) are standing along the
+circumference. Two men remove checkers in turn. The first removes
+all the black ones that had at least one white neighbour, and the
+second -- all the white ones that had at least one black neighbour.
+They stop when all the checkers are of the same colour.
+a) Let there be 40 checkers initially. Is it possible that after
+   two moves of each man there will remain only one (checker)?
+b) Let there be 1000 checkers initially. What is the minimal possible
+   number of moves to reach the position when there will remain only
+   one (checker)?
+
+239.
+Given infinite sequence a_n. It is known that the limit of
+b_n = a_{n+1} - {a_n}/2  equals zero.
+Prove that the limit of  a_n  equals zero.
+
+240.
+There are direct routes from every city of a certain country to every
+other city. The prices are known in advance. Two tourists (they do not
+necessary start from one city) have decided to visit all the cities,
+using only direct travel lines. The first always chooses the cheapest
+ticket to the city, he has never been before (if there are several --
+he chooses arbitrary destination among the cheapests). The second --
+the most expensive (they do not return to the first city).  Prove that
+the first will spend not more money for the tickets, than the second.
+/* The fact seems to be evident, but the proof is not easy -- VAP */
+
+241.
+Every vertex of a convex polyhedron belongs to three edges.
+It is possible to outscribe a circle around all its faces.
+Prove that the polyhedron can be inscribed in a sphere.
+
+242.
+The polynomial x^{10} + ?x^9 + ?x^8 + ... +?x + 1 is written on the
+blackboard. Two players substitute (real) numbers instead of one of the
+question marks in turn. (9 turns total.) The first wins if the
+polynomial will have no real roots.  Who wins?
+
+243.
+Seven elves are sitting at a round table. Each elf has a cup.  Some
+cups are filled with some milk. Each elf in turn and clockwise divides
+all his milk between six other cups.  After the seventh has done this,
+every cup was containing the initial amount of milk.  How much milk did
+every cup contain, if there was three litres of milk total?
+
+244.
+Let us call "fine" the 2n-digit number if it is exact square
+itself and the two numbers represented by its first n digits
+(first digit may not be zero) and last n digits (first digit may
+be zero, but it may not be zero itself) are exact squares also.
+a) Find all two- and four-digit fine numbers.
+b) Is there any six-digit fine number?
+c) Prove that there exists 20-digit fine number.
+d) Prove that there exist at least ten 100-digit fine numbers.
+e) Prove that there exists 30-digit fine number.
+
+245.
+Given a set of n positive numbers. For each its nonempty subset
+consider the sum of all the subset's numbers.
+Prove that You can divide those sums onto n groups in such a way, that
+the least sum in every group is not less than a half of the greatest
+sum in the same group.
+
+246.
+There are 1000 tickets with the numbers 000, 001, ... , 999; and 100
+boxes with the numbers 00, 01, ... , 99. You may put a ticket in a box,
+if You can obtain the box number from the ticket number by deleting one
+digit.  Prove that:
+a) You can put all the tickets in 50 boxes;
+b) 40 boxes is not enough for that;
+c) it is impossible to use less than 50 boxes.
+d) Consider 10000 4-digit tickets, and You are allowed to  delete two
+   digits. Prove that 34 boxes is enough for storing all the tickets.
+e) What is the minimal used boxes set in the case of k-digit tickets?
+
+247.
+Given a square 100x100 on the sheet of cross-lined paper.  There are
+several broken lines drawn inside the square.  Their links consist of
+the small squares sides. They are neither pairwise- nor
+self-intersecting (have no common points). Their ends are on the big
+square boarder, and all the other vertices are in the big square
+interior.  Prove that there exists (in addition to four big square
+angles) a node (corresponding to the cross-lining family, inside the
+big square or on its side) that does not belong to any broken line.
+
+248.
+Given natural numbers x_1, x_2, ... , x_n; y_1, y_2, ... , y_m.
+The following condition is valid:
+(x_1 + x_2 + ... + x_n) = (y_1 + y_2 + ... + y_m) < mn. (*)
+Prove that it is possible to delete some terms from (*) (not
+all and at least one) and to obtain another valid condition.
+
+249.
+Given 1000 squares on the plane with their sides parallel to the
+coordinate axes. Let M be the set of those squares centres.
+Prove that You can mark some squares in such a way, that every point of
+M will be contained not less than in one and not more than in four
+marked squares.
+
+250.
+Given scales and a set of n different weights. We take weights in turn
+and add them on one of the scales sides. Let us denote "L" the scales
+state with the left side down, and "R" -- with the right side down.
+a) Prove that You can arrange the weights in such an order,
+   that we shall obtain the sequence LRLRLRLR... of the scales
+   states. (That means that the state of the scales will be
+   changed after putting every new weight.)
+b) Prove that for every n-letter word containing R's and L's
+   only You can arrange the weights in such an order, that the
+   sequence of the scales states will be described by that word.
+
+251.
+Let us consider one variable polynomials with the senior
+coefficient equal to one. We shall say that two polynomials
+P(x) and Q(x) commute, if P(Q(x))=Q(P(x)) (i.e. we obtain
+the same polynomial, having collected the similar terms).
+a) For every a find all Q such that the Q degree is not
+   greater than three, and Q commutes with (x^2 - a).
+b) Let P be a square polynomial, and k is a natural number.  Prove that
+   there is not more than one commuting with P k-degree polynomial.
+c) Find the 4-degree and 8-degree polynomials
+   commuting with the given square polynomial P.
+d) R and Q commute with the same square polynomial P.
+   Prove that Q and R commute.
+e) Prove that there exists a sequence P_2, P_3, ... , P_n, ...  (P_k is
+   k-degree polynomial), such that P_2(x) = x^2 - 2, and all the
+   polynomials in this infinite sequence pairwise commute.
+
+
+The 12-th competition -- Tashkent, 1978.
+
+  form        first day                    second day
+    8  252   253   254   255ab | 260   261   262   263
+    9  252   253   256   257   | 260   261   264   265
+   10  258   259   255cde257   | 260   266   267   268
+
+252.
+Let a_n be the closest to sqrt(n) integer.
+Find the sum  1/{a_1} + 1/{a_2} + ... + 1/{a_{1980}}.
+
+253.
+Given a quadrangle ABCD and a point M inside it such that ABMD is a
+parallelogram. the angle CBM equals to CDM.
+Prove that the angle ACD equals to BCM.
+
+254.
+Prove that there is no m such that ({1978}^m - 1) is dividable
+by ({1000}^m - 1).
+
+255.
+Given a finite set K_0 of points (in the plane or space).  The sequence
+of sets K_1, K_2, ... , K_n, ... is build according to the rule: we
+take all the points of K_i, add all the symmetric points with respect
+to all its points, and, thus obtain K_{i+1}.
+a) Let K_0 consist of two points A and B with the distance 1 unit
+   between them.  For what n the set K_n contains the point that is
+   1000 units far from A?
+b) Let K_0 consist of three points that are the vertices of the
+   equilateral triangle with the unit square.  Find the area of minimal
+   convex polygon containing K_n.
+        K_0 below is the set of the unit volume tetrahedron vertices.
+c) How many faces contain the minimal convex polyhedron containing K_1?
+d) What is the volume of the abovementioned polyhedron?
+e) What is the volume of the minimal convex polyhedron containing K_n?
+
+256.
+Given two heaps of checkers. the bigger contains m checkers, the
+smaller -- n (m>n). Two players are taking checkers in turn from the
+arbitrary heap. The players are allowed to take from the heap a number
+of checkers (not zero) divisible by the number of checkers in another
+heap. The player that takes the last checker in any heap wins.
+a) Prove that if m > 2n, than the first can always win.
+b) Find all x such that if m > xn, than the first can always win.
+
+257.
+Prove that there exists such an infinite sequence {x_i}, that for
+all m and all k (m<>k) helds |x_m - x_k| > 1/|m-k|.
+
+258.
+Let f(x) = x^2 + x + 1.  Prove that for every natural m>1 the numbers
+m, f(m), f(f(m)), ...  are relatively prime.
+
+259.
+Prove that there exists such a number A that You can inscribe 1978
+different size squares in the plot of the function y = A sin(x). (The
+square is inscribed if all its vertices belong to the plot.)
+
+260.
+Given three automates that deal with the cards with the pairs of
+natural numbers. The first, having got the card with (a,b), produces
+new card with (a+1,b+1); the second, having got the card with (a,b),
+produces new card with (a/2,b/2), if both a and b are even and nothing
+in the opposite case; the third, having got the pair of cards with
+(a,b) and (b,c) produces new card with (a,c). All the automates return
+the initial cards also.  Suppose there was (5,19) card initially. Is it
+possible to obtain
+a) (1,50)?
+b) (1,100)?
+c) Suppose there was (a,b) card initially (a<b). We want to obtain
+   (1,n) card. For what n is it possible?
+
+261.
+Given a circle with radius R and inscribed n-angle with area S.
+We mark one point on every side of the given polygon.
+Prove that the perimeter of the polygon with the vertices in the
+marked points is not less than 2S/R.
+
+262.
+The checker is standing on the corner field of a nxn chess-board.
+Each of two players moves it in turn to the neighbour (i.e. that
+has the common side) field. It is forbidden to move to the field,
+the checker has already visited. That who cannot make a move losts.
+a) Prove that for even n the first can always win, and if n is odd,
+   than the second can always win.
+b) Who wins if the checker stands initially on the neighbour to the
+   corner field?
+
+263.
+Given n nonintersecting segments in the plane. Not a pair of those
+belong to the same straight line. We want to add several segments,
+connecting the ends of given ones, to obtain one nonselfintersecting
+broken line.  Is it always possible?
+
+264.
+Given 0 < a <= x_1 <= x_2 <= ... <= x_n <= b. Prove that
+                         1     1           1      (a+b)^2
+(x_1 + x_2 + ... + x_n)(--- + --- + ... + ---) <= -------n^2.
+                        x_1   x_2         x_n       4ab
+
+265.
+Given a simple number p>3. Consider the set M of the pairs (x,y) with
+the integer coordinates in the plane such that 0 <= x < p; 0 <= y < p.
+Prove that it is possible to mark p points of M such that not a triple
+of marked points will belong to one line and there will be no
+parallelogram with the vertices in the marked points.
+
+266.
+Prove that for every tetrahedron there exist two planes such that the
+projection areas on those planes relation is not less than sqrt(2).
+
+267.
+Given a_1, a_2, ... , a_n. Define b_k = (a_1 + a_2 + ...  + a_k)/k
+for 1 <= k <= n. Let
+C = (a_1 - b_1)^2 + (a_2 - b_2)^2 + ... + (a_n - b_n)^2;
+D = (a_1 - b_n)^2 + (a_2 - b_n)^2 + ... + (a_n - b_n)^2.
+Prove that C <= <D <= 2C.
+
+268.
+Consider a sequence x_n = (1 + sqrt(2) + sqrt (3))^n.
+Each member can be represented as
+x_n = q_n + {r_n}sqrt(2) + {s_n}sqrt(3) + {t_n}sqrt(6),
+where q_n, r_n, s_n, t_n are integers.
+                                 r_n  s_n  t_n
+Find the limits of the fractions ---, ---, ---.
+                                 q_n  q_n  q_n
+
+
+The 13-th competition -- Tbilisi, 1979.
+
+  form        first day                    second day
+    8  269   270   271  | 274   275   276   277
+    9  269   272   271  | 278   279   280   281
+   10  273   272   271  | 276   275   282   283
+
+269.
+What is the least possible relation of two isosceles triangles areas,
+if three vertices of the first one belong to three different sides of
+the second one?
+
+270.
+A grasshopper is hopping in the angle x>=0, y>=0 of the coordinate
+plane (that means that it cannot land in the point with negative
+coordinate). If it is in the point (x,y), it can either jump to the
+point (x+1,y-1), or to the point (x-5,y+7).
+Draw a set of such an initial points (x,y), that having started from
+there, a grasshopper cannot reach any point farther than 1000 from
+the point (0,0). Find its area.
+
+271.
+Every member of a certain parliament has not more than 3 enemies.
+Prove that it is possible to divide it onto two subparliaments so, that
+everyone will have not more than one enemy in his subparliament. (A is
+the enemy of B if and only if B is the enemy of A.)
+
+272.
+Some numbers are written in the notebook. We can add to that list the
+arithmetic mean of some of them, if it doesn't equal to the number,
+already having been included in it. Let us start with two numbers, 0
+and 1.  Prove that it is possible to obtain
+a) 1/5;
+b) an arbitrary rational number between 0 and 1.
+
+273.
+For every n the decreasing sequence {x_k} satisfies a condition
+      x_4   x_9         x_{n^2}
+x_1 + --- + --- + ... + ------- <= 1.
+       2     3              n
+Prove that for every n it also satisfy
+      x_2   x_3         x_n
+x_1 + --- + --- + ... + --- <= 3.
+       2     3           n
+
+274.
+Given some points in the plane. For some pairs A,B the vector AB is
+chosen. For every point the number of the chosen vectors starting in
+that point equal to the number of the chosen vectors ending in that
+point. Prove that the sum of the chosen vectors equals to zero vector.
+
+275.
+What is the least possible number of the checkers being required
+a) for the 8x8 chess-board;
+b) for the nxn chess-board;
+to provide the property:  Every line (of the chess-board fields)
+parallel to the side or diagonal is occupied by at least one checker?
+
+276.
+Find x and y (a and b parameters):
+x - y*sqrt(x^2 - y^2)        y - x*sqrt(x^2 - y^2)
+--------------------- = a;   --------------------- = b.
+ sqrt(1 - x^2 + y^2)          sqrt(1 - x^2 + y^2)
+
+277.
+Given some square carpets with the total area 4.
+Prove that they can fully cover the unit square.
+
+278.
+Prove that for the arbitrary numbers x_1, x_2, ... , x_n from
+the [0,1] segment    (x_1 + x_2 + ... + x_n + 1)^2 >=
+                >= 4({x_1}^2 + {x_2}^2 + ... + {x_n}^2).
+
+279.
+Natural p and q are relatively prime. The [0,1] is divided onto
+(p+q) equal segments.
+Prove that every segment except two marginal contain exactly one from
+the (p+q-2) numbers {1/p, 2/p, ... , (p-1)/p, 1/q, 2/q, ... , (q-1q)}.
+
+280.
+Given the point O in the space and 1979 straight lines l_1, l_2, ... ,
+l_{1979} containing it. Not a pair of lines is orthogonal.
+Given a point A_1 on l_1 that doesn't coincide with O.
+Prove that it is possible to choose the points A_i on l_i (i = 2, 3,
+... , 1979) in so that 1979 pairs will be orthogonal:
+A_1A_3           and l_2;
+A_2A_4           and l_3;
+           ..........
+A_{i-1}A_{i+1}   and l_i;
+           ..........
+A_{1977}A_{1979} and l_{1978};
+A_{1978}A_1      and l_{1979};
+A_{1979}A_2      and l_1
+
+281.
+The finite sequence a_1, a_2, ... , a_n of ones and zeroes should
+satisfy a condition: for every k from 0 to (n-1) the sum
+a_1a_{k+1} + a_2a_{k+2} + ... + a_{n-k}a_n  should be odd.
+a) Build such a sequence for n=25.
+b) Prove that there exists such a sequence for some n > 1000.
+
+282.
+The convex quadrangle is divided by its diagonals onto four
+triangles. The circles inscribed in those triangles are equal.
+Prove that the given quadrangle is a diamond.
+
+283.
+Given n points (in sequence) A_1, A_2, ... , A_n on a line. All the
+segments A_1A_2, A_2,A_3, ... A_{n-1}A_n are shorter than 1. We need to
+mark (k-1) points so that the difference of every two segments, with
+the ends in the marked ponts, is shorter than 1.
+Prove that it is possible
+a) for k=3;
+b) for every k less than (n-1).
+
+
+The 14-th competition -- Saratov, 1980.
+
+  form        first day                    second day
+    8  284   285   286   287  | 293   294   295   296
+    9  288   289   286   290  | 295   297   298   299
+   10  291   289   292   290  | 300   301   302   303
+
+284.
+All the two-digit numbers from 19 to 80 are written in a line without
+spaces. Is the obtained number (192021....7980) dividable by 1980?
+
+285.
+The vertical side of a square is divided onto n segments. The sum of
+the segments with even numbers lengths equals to the sum of the
+segments with odd numbers lengths.  (n-1) lines parallel to the
+horizontal sides are drawn from the segments ends, and, thus, n strips
+are obtained. The diagonal is drawn from the lower left corner to the
+upper right one.  This diagonal divides every strip onto left and right
+parts.  Prove that the sum of the left parts of odd strips areas equals
+to the sum of the right parts of even strips areas.
+
+286.
+The load for the space station "Salut" is packed in containers.  There
+are more than 35 containers, and the total weight is 18 metric tons.
+There are 7 one-way transport spaceships "Progress", each able to bring
+3 metric tons to the station. It is known that they are able to take an
+arbitrary subset of 35 containers.
+Prove that they are able to take all the load.
+
+287.
+The points M and P are the middles of [BC] and [CD] sides of a convex
+quadrangle ABCD. It is known that |AM| + |AP| = a.
+Prove that the ABCD area is less than {a^2}/2.
+
+288.
+Are there three simple numbers x,y,z, such that x^2 + y^3 = z^4?
+
+289.
+Given a point E on the diameter AC of the certain circle.
+Draw a chord BD to maximise the area of the quadrangle ABCD.
+
+290.
+There are several settlements on the bank of the Big Round Lake.  Some
+of them are connected with the regular direct ship lines.  Two
+settlements are connected if and only if two next (counterclockwise) to
+each ones are not connected.
+Prove that You can move from the arbitrary settlement to another
+arbitrary settlement, having used not more than three ships.
+
+291.
+The six-digit decimal number contains six different non-zero digits and
+is dividable by 37.  Prove that having transposed its digits You can
+obtain at least 23 more numbers dividable by 37.
+
+292.
+Find real solutions of the system
+sin x  +  2 sin(x+y+z)  =  0,
+sin y  +  3 sin(x+y+z)  =  0,
+sin z  +  4 sin(x+y+z)  =  0.
+
+293.
+Given 1980 vectors in the plane, and there are some non-collinear among
+them. The sum of every 1979 vectors is collinear to the vector not
+included in that sum.
+Prove that the sum of all vectors equals to the zero vector.
+
+294.
+Let us denote with S(n) the sum of all the digits of n.
+a) Is there such an n that  n + S(n) = 1980?
+b) Prove that at least one of two arbitrary successive natural
+   numbers is representable as  n + S(n)  for some third number n.
+
+295.
+Some squares of the infinite sheet of cross-lined paper are red.
+Each 2x3 rectangle (of 6 squares) contains exactly two red squares.
+How many red squares can be in the 9x11 rectangle of 99 squares?
+
+296.
+An epidemic influenza broke out in the elves city. First day some of
+them were infected by the external source of infection and nobody later
+was infected by the external source.  The elf is infected when visiting
+his ill friend. In spite of the situation every healthy elf visits all
+his ill friends every day.  The elf is ill one day exactly, and has the
+immunity at least on the next day. There is no graftings in the city.
+Prove that
+a) If there were some elves immunised by the external source on
+   the first day, the epidemic influenza can continue arbitrary
+   long time.
+b) If nobody had the immunity on the first day, the epidemic influenza
+   will stop some day.
+
+297.
+Let us denote with P(n) the product of all the digits of n.  Consider
+the sequence n_{k+1} = n_k + P(n_k).  Can it be unbounded for some n_1?
+
+298.
+Given equilateral triangle ABC. Some line, parallel to [AC] crosses
+[AB] and [BC] in M and P points respectively. Let D be the centre of
+PMB triangle, E - the middle of the [AP] segment.
+Find the angles of DEC triangle.
+
+299.
+Let the edges of rectangular parallelepiped be x,y and z (x<y<z), and
+p=4(x+y+z), s=2(xy+yz+zx) and d=sqrt(x^2 + y^2 + z^2) -- its perimeter,
+surface area and diagonal length, respectively.  Prove that
+    1 p              s          1 p              s
+x < -(- - sqrt(d^2 - -)),   z > -(- + sqrt(d^2 - -)).
+    3 4              2          3 4              2
+
+300.
+The A set consists of integers only. Its minimal element is 1
+and its maximal element is 100. Every element of A except 1 equals
+to the sum of two (may be equal) numbers being contained in A.
+What is the least possible number of elements in A?
+
+301.
+Prove that there is an infinite number of such numbers B that the
+equation  [x^{3/2}] + [y^{3/2}] = B  has at least 1980 integer
+solutions (x,y). ([z] denotes the greatest integer not exceeding z.)
+
+302.
+The edge [AC] of the tetrahedron ABCD is orthogonal to [BC], and [AD]
+is orthogonal to [BD].  Prove that the cosine of the angle between (AC)
+and (BD) lines is less than |CD|/|AB|.
+
+303.
+The number x from [0,1] is written as an infinite decimal fraction.
+Having rearranged its first five digits after the point we can
+obtain another fraction that corresponds to the number x_1.
+Having rearranged  five digits of x_k from (k+1)-th till (k+5)-th
+after the point we obtain the number x_{k+1}.
+a) Prove that the sequence x_i has limit.
+b) Can this limit be irrational if we have started with the
+   rational number?
+c) Invent such a number, that always produces irrational numbers,
+   no matter what digits were transposed.
+
+
+The 15-th competition -- Alma-Ata, 1981.
+
+  form        first day                    second day
+    8  304   305   306   307  | 315   316   317   318
+    9  308   309   310   311  | 319   320   321   322
+   10  311   312   312   314  | 323   324   325   326
+
+304.
+Two equal chess-boards (8x8) have the same centre, but one is rotated
+by 45 degrees with respect to another.  Find the total area of black
+fields intersection, if the fields have unit length sides.
+
+305.
+Given points A,B,M,N on the circumference. Two chords [MA_1] and [MA_2]
+are orthogonal to (NA) and (NB) lines respectively.
+Prove that (AA_1) and (BB_1) lines are parallel.
+
+306.
+Let us say, that a natural number has the property P(k) if it can be
+represented as a product of k succeeding natural numbers greater than 1.
+a) Find k such that there exists n which has properties
+   P(k) and P(k+2) simultaneously.
+b) Prove that there is no number having properties
+   P(2) and P(4) simultaneously.
+
+307.
+The rectangular table has four rows. The first one contains arbitrary
+natural numbers (some of them may be equal). The consecutive lines are
+filled according to the rule: we look through the previous row from
+left to the certain number n and write the number k if n was met k
+times.  Prove that the second row coincides with the fourth one.
+
+308.
+Given real a. Find the least possible area of the rectangle
+with the sides parallel to the coordinate axes and containing
+the figure determined by the system of inequalities
+y <= -x^2,  y >= x^2 - 2x + a.
+/* as there is no derivatives in the school program of the 9-th
+   form, the participants had to use parabola properties -VAP */
+
+309.
+Three equilateral triangles ABC, CDE, EHK (the vertices are mentioned
+counterclockwise) are lying in the plane so, that the vectors [AD[ and
+[DK[ are equal.  Prove that the triangle BHD is also equilateral.
+
+310.
+There are 1000 inhabitants in a settlement. Every evening every
+inhabitant tells all his friends all the news he had heard the previous
+day. Every news becomes finally known to every inhabitant.  Prove that
+it is possible to choose 90 of inhabitants so, that if You tell them a
+news simultaneously, it will be known to everybody in 10 days.
+
+311.
+It is known about real a and b that the inequality
+a cos(x) + b cos(3x) > 1  has no real solutions.
+Prove that |b| <=1.
+
+312.
+The points K and M are the centres of the AB and CD sides of the convex
+quadrangle ABCD. The points L and M belong to two other sides and KLMN
+is a rectangle.  Prove that KLMN area is a half of ABCD area.
+
+313.
+Find all the sequences of natural k_n with two properties:
+for all n    k_n <= n sqrt(n);
+for all m>n   (k_n - k_m)  is dividable by (m-n).
+
+314.
+Is it possible to fill a rectangular table with black and white
+squares (only) so, that the number of black squares will equal
+to the number of white squares, and each row and each column
+will have more than 75% squares of the same colour?
+
+315.
+The quadrangles AMBE, AHBT, BKXM, and CKXP are parallelograms.
+Prove that the quadrangle ABTE is also parallelogram.
+(the vertices are mentioned counterclockwise)
+
+316.
+Find the natural solutions of the equation x^3 - y^3 = xy + 61.
+
+317.
+Eighteen soccer teams have played 8 tours of a one-round tournament.
+Prove that there is a triple of teams, having not met each other yet.
+
+318.
+The points C_1, A_1, B_1 belong to [AB], [BC], [CA] sides, respectively,
+of the ABC triangle.
+|AC_1|   |BA_1|   |CB_1|   1
+------ = ------ = ------ = -.
+|C_1B|   |A_1C|   |B_1A|   3
+Prove that the perimeter P of the ABC triangle and the perimeter p
+of the A_1B_1C_1 triangle satisfy inequality  P/2 < p < 3P/4.
+
+319.
+Positive numbers x,y satisfy equality x^3 + y^3 = x - y.
+Prove that x^2 + y^2 < 1.
+
+320.
+A pupil has tryed to make a copy of a convex polygon, drawn inside
+the unit circle. He draw one side, from its end -- another, and so on.
+Having finished, he has noticed that the first and the last vertices
+do not coincide, but are situated d units of length far from each other.
+The pupil draw angles precisely, but made relative error less than p
+in the lengths of sides.  Prove that d < 4p.
+
+321.
+A number is written in the each vertex of a cube. It is allowed to add
+one to two numbers written in the ends of one edge.
+Is it possible to obtain the cube with all equal numbers if the numbers
+were initially as on the pictures:
+  0-------0     7-------4     0-------1
+ /|      /|    /|      /|    /|      /|
+0-------0 |   6-------5 |   1-------0 |
+| |     | |   | |     | |   | |     | |
+| 0-----|-1   | 2-----|-3   | 0-----|-0
+|/      |/    |/      |/    |/      |/
+0-------0     1-------4     0-------0
+  fig.a         fig.b         fig.c
+
+322.
+Find  n such that each of the numbers n,(n+1),...,(n+20) has the common
+divider greater than one with the number 30030 = 2*3*5*7*11*13.
+
+323.
+The natural numbers from 100 to 999 are written on separate cards. They
+are gathered in one pile with their numbers down in arbitrary order.
+Let us open them in sequence and divide into 10 piles according to the
+least significant digit. The first pile will contain cards with 0 at
+the end, ... , the tenth -- with 9. Then we shall gather 10 piles in
+one pile, the first -- down, then the second, ... and the tenth -- up.
+Let us repeat the procedure twice more, but the next time we shall
+divide cards according to the second digit, and the last time -- to the
+most significant one.
+What will be the order of the cards in the obtained pile?
+
+324.
+Six ponts are marked inside the 3x4 rectangle.
+Prove that there is a pair of marked points with the
+distance between them not greater than sqrt(5).
+
+325.
+a) Find the minimal value of the polynomial
+   P(x,y) = 4 + (x^2)(y^4) + (x^4)(y^2) - 3(x^2)(y^2)
+   /* the usage of derivatives is forbidden, as they were
+      not included in the school programs  -- VAP */
+b) Prove that it cannot be represented as a sum of the squares
+   of some polynomials of x,y.
+
+326.
+The segments [AD], [BE] and [CF] are the side edges of the _right_
+triangle prism.(I mean, that the equilateral triangle is a base -- VAP)
+Find all the points in its base ABC, situated on the equal
+distances from the (AE), (BF) and (CD) lines.
+
+
+The 16-th competition -- Odessa, 1982.
+
+  form        first day                    second day
+    8  327   328   329a  330  | 337   338   339   340
+    9  331   332   333   334  | 341   342   343   344
+   10  335   332   329b  336  | 345   346   347   348
+
+327.
+Given two points M and K on the circumference with radius r_1 and
+centre O_1. The circumference with radius r_2 and centre O_2 is
+inscribed in MO_1K angle.  Find the MO_1KO_2 quadrangle area.
+
+328.
+Every member, starting from the third one, of two sequences {a_n} and
+{b_n} equals to the sum of two preceding ones.  First members are: a_1
+= 1, a_2 = 2, b_1 = 2, b_2 = 1.  How many natural numbers are
+encountered in both sequences (may be on the different places)?
+
+329.
+a) Let m and n be natural numbers. For some nonnegative integers k_1,
+   k_2, ... , k_n the number 2^{k_1} + 2^{k_2} + ... + 2^{k_n} is
+   dividable by (2^m - 1).  Prove that n >= m.
+b) Can You find a number, dividable by 111...1 (m times "1"),
+   that has the sum of its digits less than m?
+
+330.
+A nonnegative real number is written at every cube's vertex.  The sum
+of those numbers equals to 1. Two players choose in turn faces of the
+cube, but they cannot choose the face parallel to already chosen one
+(the first moves twice, the second -- once).
+Prove that the firs player can provide the number, at the common for
+three chosen faces vertex, to be not greater than 1/6.
+
+331.
+Once upon a time, three boys visited a library for the first time.
+The first decided to visit the library every second day.
+The second decided to visit the library every third day.
+The third decided to visit the library every fourth day.
+The librarian noticed, that the library doesn't work on Wednesdays.
+The boys decided to visit library on Thursdays, if they have to
+do it on Wednesdays, but to restart the day counting in these cases.
+They strictly obeyed these rules. Some Monday later I met them
+all in that library.
+What day of week was when they visited a library for the first time?
+
+332.
+The parallelogram ABCD isn't a diamond. The relation of the diagonal
+lengths |AC|/|BD| equals to k. The [AM) ray is symmetric to the [AD)
+ray with respect to the (AC) line. The [BM) ray is symmetric to the
+[BC) ray with respect to the (BD) line. (M point is those rays
+intersection.) Find the |AM|/|BM| relation.
+
+333.
+3k points are marked on the circumference. They divide it onto 3k
+arcs. Some k of them have length 1, other k of them have length 2,
+the rest k of them have length 3.
+Prove that some two of the marked points are the ends of one diameter.
+
+334.
+Given a point M inside a right tetrahedron.  Prove that at least one
+tetrahedron edge is seen from the M in an angle, that has a cosine not
+greater than -1/3.  /*   I mean that if A and B are the vertices,
+   corresponding to that edge, cos(AMB) <= -1/3 */
+
+335.
+Three numbers a,b,c belong to ]0,pi/2[ interval.
+cos(a) = a;   sin(cos(b)) = b; cos(sin(c)) = c.
+Sort those numbers in increasing order.
+
+336.
+The closed broken line M has odd number of vertices -- A_1, A_2, ... ,
+A_{2n+1} in sequence. Let us denote with S(M) a new closed broken line
+with vertices B_1, B_2, ... ,B_{2n+1} -- the middles of the first line
+links: B_1 is the middle of [A_1A_2], ... , B_{2n+1} -- of
+[A_{2n+1}A_1].  Prove that in a sequence M_1=S(M), ... , M_k =
+S(M_{k-1}), ...  there is a broken line, homothetic to the M.
+
+337.
+All the natural numbers from 1 to 1982 are gathered in an array in an
+arbitrary order in computer's memory. The program looks through all the
+sequent pairs (first and second, second and third,...) and exchanges
+numbers in the pair, if the number on the lower place is greater than
+another. Then the program repeats the process, but moves from another
+end of the array. The number, that stand initially on the 100-th place
+reserved its place.  Find that number.
+
+338.
+Cucumber river in the Flower city /* authors mean the N.Nosov's tale
+about the sort of elves country */ has parallel banks with the distance
+between them 1 metre. It has some islands with the total perimeter 8
+metres. Mr. Know-All claims that it is possible to cross the river in a
+boat from the arbitrary point, and the trajectory will not exceed 3
+metres.  Is he right?
+
+339.
+There is a parabola y = x^2  drawn on the coordinate plane. The axes
+are deleted. Can You restore them with the help of compass and ruler?
+
+340.
+The square table nxn is filled by integers. If the fields have
+common side, the difference of numbers in them doesn't exceed 1.
+Prove that some number is encountered not less than
+a) not less than [n/2] times ([] mean the whole part);
+b) not less than n times.
+
+341.
+Prove that the following inequality is valid for the positive x:
+2^(x^{1/12}) + 2^(x^{1/4}) >= 2^(1 + x^{1/6}) .
+
+342.
+What minimal number of numbers from the set {1,2,...,1982}
+should be deleted to provide the property: none of the remained
+numbers equals to the product of two other remained numbers?
+/* This particular problem sounds bad due to the translator,
+   but I had read the Moscow competition organising committee
+   announcement with the word "prize" 7 times repeated in
+   one sentence -- VAP */
+
+343.
+Every square on the infinite sheet of cross-lined paper contains
+some real number. Prove that some square contains a number that
+does not exceed at least four of eight neighbouring numbers.
+
+344.
+Given a sequence of real numbers a_1, a_2, ... , a_n. Prove that
+it is possible to choose some of the numbers providing 3 conditions:
+a) not a triple of successive members is chosen;
+b) at least one of every triple of successive members is chosen;
+c) the absolute value of chosen numbers sum is not less that one
+   sixth part of the initial numbers' absolute values sum.
+
+345.
+Given the square table nxn with (n-1) marked fields.
+Prove that it is possible to move all the marked fields below
+the diagonal by moving rows and columns.
+
+346.
+Prove that the following inequality helds for all real a and natural n:
+|a|*|a-1|*|a-2|*...*|a-n| >= F(a)*n!/(2^n),
+F(a) is the distance from a to the closest integer.
+
+347.
+Can You find three polynomials P,Q,R of three variables x,y,z,
+providing the condition:
+a) P(x-y+z)^3 + Q(y-z-1)^3 +R(z-2x+1)^3 = 1;
+b) P(x-y+z)^3 + Q(y-z-1)^3 +R(z-x+1)^3 = 1;
+for all x,y,z?
+
+348.
+The KLMN tetrahedron (triangle pyramid) vertices are situated inside or
+on the faces or on the edges of the ABCD tetrahedron. Prove that KLMN
+perimeter is less than 4/3 ABCD perimeter.
+
+
+The 17-th competition -- Kishenew, 1983.
+
+  form        first day                    second day
+    8  349   350   351   352  | 360   361   362   363
+    9  353   354   355   356  | 364   365   366   367
+   10  357   354   358   359  | 360   368   369   370
+
+349.
+Every cell of the net, drawn on the      +---+---+---+---+
+picture has 1x1 size. Is it possible     |   |   |   |   |
+to represent this net as a union of      +---+---+---+---+
+the following sets:                      |   |   |   |   |
+a) Eight broken lines of length          +---+---+---+---+
+   five each?                            |   |   |   |   |
+b) Five broken lines of length           +---+---+---+---+
+   eight each?                           |   |   |   |   |
+                                         +---+---+---+---+
+
+350.
+Three numbers were written with a chalk on the blackboard.  The
+following operation was repeated several times:  One of the numbers was
+cleared and the sum of two other numbers, decreased by 1, was written
+instead of it. The final set of numbers is {17, 1967, 1983} /* In some
+organisers opinion "17" is the most distinguishing number, and those
+three numbers were met on the picturesque jubilee slogans. In fact, in
+1967 the competition was just renamed -VAP */. Is it possible to admit
+that the initial numbers were
+a) {2, 2, 2}?
+b) {3, 3, 3}?
+
+351.
+Three disks touch pairwise from outside in the points X,Y,Z. Then the
+radiuses of the disks were expanded by 2/sqrt(3) times, and the centres
+were reserved.  Prove that the XYZ triangle is completely covered by
+the expanded disks.
+
+353.
+Find all the solutions of the system
+y^2 = x^3 - 3x^2 + 2x,
+x^2 = y^3 - 3y^2 + 2y.
+
+354.
+Natural number k has n digits in its decimal notation.  It was rounded
+up to tens, then the obtained number was rounded up to hundreds, and so
+on (n-1) times.  Prove that The obtained number m satisfies inequality
+m < 18*k/13.  (Examples of rounding: 191->190->200;  135->140->100.)
+
+355.
+The point D is the middle of the [AB] side of the ABC triangle.  The
+points E and F belong to [AC] and [BC] respectively.
+Prove that the DEF triangle area does not exceed the sum of the ADE and
+BDF triangles areas.
+
+356.
+The sequences a_n and b_n members are the last digits of
+[(sqrt(10))^n] and [(sqrt(2))^n] respectively (here [] denotes
+the whole part of a number). Are those sequences periodical?
+
+357.
+Two acute angles a and b satisfy condition
+(sin(a))^2 + (sin(b))^2 = sin(a+b).
+Prove that a + b = pi/2.
+
+358.
+The points A_1,B_1,C_1,D_1 and A_2,B_2,C_2,D_2 are orthogonal
+projections of the ABCD tetrahedron vertices on two planes.
+Prove that it is possible to move one of the planes to provide
+the parallelness of (A_1A_2), (B_1B_2), (C_1C_2) and (D_1D_2) lines.
+
+359.
+The pupil is training in the square equation solution.  Having the
+recurrent equation solved, he stops, if it doesn't have two roots, or
+solves the next equation, with the free coefficient equal to the
+greatest root, the coefficient at x equal to the least root, and the
+coefficient at x^2 equal to 1.  Prove that the process cannot be
+infinite.  What maximal number of the equations he will have to solve?
+
+360.
+Given natural n,m,k. It is known that m^n is dividable by n^m; and n^k
+is dividable by k^n.  Prove that m^k is dividable by k^m.
+
+361.
+The Abba tribe language alphabet contains two letters only.
+Not a word of this language is a beginning of another word.
+Can this tribe vocabulary contain 3 four-letter, 10 five-letter,
+30 six-letter and 5 seven-letter words?
+
+362.
+Can You fill the squares of the infinite cross-lined paper with
+integers so, that the sum of the numbers in every 4x6 fields rectangle
+would be
+a) 10?
+b) 1?
+
+363.
+The points A_1,B_1,C_1 belong to [BC],[CA],[AB] sides of the ABC
+triangle respectively. The [AA_1], [BB_1], [CC_1] segments
+split the ABC onto 4 smaller triangles and 3 quadrangles.
+It is known, that the smaller triangles have the same area.
+Prove that the quadrangles have equal areas. What is the
+quadrangle area, it the small triangle has the unit area?
+
+364.
+The kindergarten group is standing in the column of pairs.  The number
+of boys equals the number of girls in each of the two columns. The
+number of mixed (boy and girl) pairs equals to the number of the rest
+pairs.  Prove that the total number of children in the group is
+dividable by eight.
+
+365.
+One side of the rectangle is 1cm. It is known that the rectangle can be
+divided by two orthogonal lines onto four rectangles, and each of the
+smaller rectangles has the area not less than 1 square centimetre, and
+one of them is not less than 2 square centimetres.
+What is the least possible length of another side of big rectangle?
+
+366.
+Given a point O inside ABC triangle. Prove that
+S_A*[OA) + S_B*[OB) + S_C[OC) = [OO),
+where S_A, S_B, S_C denote BOC, COA, AOB triangles areas respectively
+( [AB) denotes vector from A to B , [OO) -- zero vector).
+
+367.
+Given (2m+1) different integers, each absolute value is not greater
+than (2m-1). Prove that it is possible to choose three numbers among
+them, with their sum equal to zero.
+
+368.
+The points D,E,F belong to the sides ]AB[, ]BC[ and ]CA[ of the ABC
+triangle respectively (but they are not vertices). Let us denote with
+d_0, d_1, d_2, and d_3 the maximal side length of the DEF, DEA, DBF,
+CEF, triangles respectively.  Prove that
+d_0 >= (sqrt(3)/2) min{d_1, d_2, d_3}.  When the equality takes place?
+
+369.
+The M set consists of k non-intersecting segments on the line.  It is
+possible to put an arbitrary segment shorter than 1cm on the line in
+such a way, that his ends will belong to M.  Prove that the total sum
+of the segment lengths is not less than 1/k cm.
+
+370.
+The infinite decimal notation of the real number x contains all the
+digits. Let v_n be the number of different n-digit segments encountered
+in x notation.  Prove that if for some n  v_n <= (n+8), than x is a
+rational number.
+
+
+The 18-th competition -- Ashkhabad, 1984.
+
+  form        first day                    second day
+    8  371   372   373   374  | 383   384   385   386
+    9  375   376   377   378  | 387   388   389   390
+   10  379   380   381   382  | 391   392   393   394
+
+371.
+a) The product of n integers equals n, and their sum is zero.
+   Prove that n is dividable by 4.
+b) Let n is dividable by 4.
+   Prove that there exist n integers such, that their product
+   equals n, and their sum is zero.
+
+372.
+Prove that every positive a and b satisfy inequality
+((a+b)^2)/2 + (a+b)/4 >= a*sqrt(b) + b*sqrt(a).
+
+373.
+Given two equilateral triangles A_1B_1C_1 and A_2B_2C_2 in the plane.
+(The vertices are mentioned counterclockwise.) We draw vectors [OA[,
+[OB[, [OC[, from the arbitrary point O, equal to [A_1A_2[, [B_1B_2[,
+[C_1C_2[ respectively.  Prove that the triangle ABC is equilateral.
+
+374.
+Given four colours and enough square plates 1x1. We have to paint four
+edges of every plate with four different colours and combine plates,
+putting them with the edges of the same colour together.
+Describe all the pairs m,n, such that we can combine those plates in a
+nxm rectangle, that has every edge of one colour, and its four edges
+have different colours.
+
+375.
+Prove that every positive x,y and real a satisfy inequality
+x^((sin a)^2) * y^((cos a)^2) < x + y.
+
+376.
+Given a cube and two colours. Two players paint in turn a triple of
+arbitrary unpainted edges with his colour. (Everyone makes two moves.)
+The first wins if he has painted all the edges of an arbitrary face
+with his colour. Can he always win?
+
+377.
+n natural numbers (n>3) are written on the circumference. The relation
+of the two neighbours sum to the number itself is a whole number.
+Prove that the sum of those relations is
+a) not less than 2n;
+b) less than 3n.
+
+378.
+The circle with the centre O is inscribed in the ABC triangle.  The
+circumference touches its sides [BC], [CA], [AB] in A_1, B_1, C_1
+points respectively. The [AO], [BO], [CO] segments cross the
+circumference in A_2, B_2, C_2 points respectively.
+Prove that (A_1A_2),(B_1B_2) and (C_1C_2) lines intersect in one point.
+
+379.
+Find integers m and n such that (5 + 3 sqrt(2))^m = (3 + 5 sqrt(2))^n.
+
+380.
+n real numbers are written in increasing order in a line.  The same
+numbers are written in the second line below in unknown order.  The
+third line contains the sums of the pairs of numbers above from two
+previous lines. It comes out, that the third line is arranged in
+increasing order.
+Prove that the second line coincides with the first one.
+
+381.
+Given ABC triangle. From the P point three lines (PA),(PB),(PC) are
+drawn. They cross the outscribed circumference in A_1, B_1,C_1 points
+respectively. It comes out that the A_1B_1C_1 triangle equals to the
+initial one.
+Prove that there are not more than eight such a points P in a plane.
+
+382.
+Positive x,y,z satisfy a system
+x^2 + xy + (y^2)/3 = 25;
+     (y^2)/3 + z^2 = 9;
+    z^2 + zx + x^2 = 16.
+Find the value of (xy + 2yz + 3zx) expression.
+
+383.
+The teacher wrote on a blackboard:  " x^2 + 10x + 20 " Then all the
+pupils in the class came up in turn and either decreased or increased
+by 1 either the free coefficient or the coefficient at x, but not both.
+Finally they have obtained:  " x^2 + 20x + 10 ".
+Is it true that some time during the process there was written the
+square polynomial with the integer roots?
+
+384.
+The centre of the coin with radius r is moved along some polygon with
+the perimeter P, that is outscribed around the circle with radius R
+(R>r).  Find the coin trace area (a sort of polygon ring).
+
+385.
+There are scales and (n+1) weights with the total weight 2n.  Each
+weight weight is an integer. We put all the weights in turn on the
+lighter side of the scales, starting from the heaviest one, and if the
+scales is in equilibrium -- on the left side.  Prove that when all the
+weights will be put on the scales, they will be in equilibrium.
+
+386.
+Let us call "absolutely prime" the prime number, if having transposed
+its digits in an arbitrary order, we obtain prime number again.  Prove
+that its notation cannot contain more than three different digits.
+
+387.
+The x and y figures satisfy a condition: for every n>=1 the number
+xx...x6yy...y4 (n times x and n times y) is an exact square.
+Find all possible x and y.
+
+388.
+The A,B,C and D points (from left to right) belong to the straight line.
+Prove that every point E, that doesn't belong to the line satisfy:
+|AE| + |ED| + | |AB| - |CD| | > |BE| + |CE|.
+
+389.
+Give a sequence {x_n}. x_1 = x_2 = 1. x_{n+2} = (x_{n+1})^2 - {x_n}/2.
+Prove that the sequence has limit and find it.
+
+390.
+The white fields of 1983x1984 chess-board are filled with either +1
+or -1. For every black field, the product of neighbouring numbers is +1.
+Prove that all the numbers are +1.
+
+391.
+The white fields of 3x3 chess-board are filled with either +1 or -1.
+For every field, let us calculate the product of neighbouring numbers.
+Then let us change all the numbers by the respective products.
+Prove that we shall obtain only +1's, having repeated this operation
+finite number of times.
+
+392.
+What is more 2/201 or ln(101/100)? (No differential calculus allowed).
+
+393.
+Given three circles c_1,c_2,c_3 with r_1,r_2,r_3 radiuses, r_1 > r_2;
+r_1 > r_3. Each lies outside of two others. The A point -- an
+intersection of the outer common tangents to c_1 and c_2 -- is outside
+c_3. The B point -- an intersection of the outer common tangents to c_1
+and c_3 -- is outside c_2. Two pairs of tangents -- from A to c_3 and
+from B to c_2 -- are drawn.  Prove that the quadrangle, they make, is
+outscribed around some circle and find its radius.
+
+394.
+Prove that every cube's cross-section, containing its centre,
+has the area not less then its face's area.
+
+
+The 19-th competition -- Mogilev, 1985.
+
+  form        first day                    second day
+    8  395   396   397   398  | 407   408   409   410
+    9  399   400   401   402  | 411   410   412   413
+   10  403   404   405   406  | 414   415   416   417
+
+395.
+Two perpendiculars are drawn from the middles of each side of the
+acute-angle triangle to two other sides. Those six segments make
+hexagon.  Prove that the hexagon area is a half of the triangle area.
+
+396.
+Is there any number n, such that the sum of its digits in the decimal
+notation is 1000, and the sum of its square digits in the decimal
+notation is 1000000?
+
+397.
+What maximal number of the dames (? Am I right? The checker
+turns into a dame, when it reaches the last row? ) can be
+put on the chess-board 8x8 so, that every dame can be taken
+by at least one other dame?
+
+398.
+You should paint all the sides and diagonals of the right n-angle so,
+that every pair of segments, having the common point, would be painted
+with different colours.  How many colours will You require?
+
+399.
+Given a straight line and the point O out of the line.  Prove that it
+is possible to move an arbitrary point A in the same plane to the O
+point, using only rotations around O and symmetry with respect to the l.
+
+400.
+The senior coefficient a in the square polynomial
+P(x) = ax^2 +  bx + c   is more than 100. What is the maximal
+number of integer values of x, such that |P(x)|<50?
+
+401.
+Different natural numbers a,b,...,k       k
+are written in the diagram. Every         |
+number in the diagram equals to           V
+the sum of two numbers at the        h--->i
+beginning of two arrows,             |    |
+leading to the number.               V    V
+What is the minimal             e--->f--->g
+possible value of d?            |    |    |
+                                V    V    V
+                          a---->b--->c--->d
+402.
+Given unbounded strictly increasing sequence a_1, a_2, ... , a_n, ...
+of positive numbers. Prove that
+a) there exists a number k_0 such that for all k>k_0 the following
+   inequality is valid:
+    a_1/a_2 + a_2/a_3 + ... + a_k/a_{k-1} < k - 1
+b) there exists a number k_0 such that for all k>k_0 the following
+   inequality is valid:
+    a_1/a_2 + a_2/a_3 + ... + a_k/a_{k-1} < k - 1985
+
+403.
+Find all the pairs (x,y) such that |sin(x)-sin(y)| + sin(x)sin(y) <= 0.
+
+404.
+The convex pentagon ABCDE _was_ drawn in the plane.
+A_1 was symmetric to A with respect to B.
+B_1 was symmetric to B with respect to C.
+C_1 was symmetric to C with respect to D.
+D_1 was symmetric to D with respect to E.
+E_1 was symmetric to E with respect to A.
+How is it possible to restore the initial pentagon with the
+compass and ruler, knowing A_1,B_1,C_1,D_1,E_1 points?
+
+405.
+The sequence a_1, a_2, ... , a_k, ... is built according to the rules:
+a_{2n} = a_n;  a_{4n+1} = 1;  a_{4n+3} = 0.
+Prove that it is non-periodical sequence.
+
+406.
+n straight lines are drawn in a plane. They divide the plane onto
+several parts. Some of the parts are painted. Not a pair of painted
+parts has non-zero length common bound.
+Prove that the number of painted parts is not more than (n^2 + n)/3.
+
+407.
+Given a cube, a cubic box, that exactly suits for the cube, and six
+colours. First man paints each side of the cube with its (side's)
+unique colour. Another man does the same with the box.
+Prove that the third man can put the cube in the box in such a way,
+that every cube side will touch the box side of different colour.
+
+408.
+The [A_0A_5] diameter divides a circumference with the O centre onto
+two hemicircumferences. One of them is divided onto five equal arcs
+A_0A_1, A_1A_2, A_2A_3, A_3A_4, A_4A_5. The (A_1A_4) line crosses
+(OA_2) and (OA_3) lines in M and N points.
+Prove that (|A_2A_3| + |MN|) equals to the circumference radius.
+
+409.
+If there are four numbers (a,b,c,d) in four registers of the
+calculating machine, they turn into (a-b,b-c,c-d,d-a) numbers whenever
+You press the button.  Prove that if not all the initial numbers are
+equal, machine will obtain at least one number more than 1985 after
+some number of the operations.
+
+410.
+Numbers 1,2,3,...,2n are divided onto two equal groups.  Let
+a_1,a_2,...,a_n be the first group numbers in the increasing order, and
+b_1,b_2,...,b_n -- the second group numbers in the decreasing order.
+Prove that |a_1 - b_1| + |a_2 - b_2| + ... + |a_n - b_n| = n^2.
+
+411.
+The parallelepiped is constructed of the equal cubes. Three
+parallelepiped faces, having the common vertex are painted.
+Exactly half of all the cubes have at least one face painted.
+What is the total number of the cubes?
+
+412.
+One of two circumferences of radius R comes through A and B
+vertices of the ABCD parallelogram. Another comes through
+B and D. Let M be another point of circumferences intersection.
+Prove that the circle outscribed around AMD triangle has radius R.
+
+413.
+Given right hexagon. The lines parallel to all the sides are drawn from
+all the vertices and middles of the sides (consider only the interior,
+with respect to the hexagon, parts of those lines).  Thus the hexagon
+is divided onto 24 triangles, and the figure has 19 nodes. 19 different
+numbers are written in those nodes.  Prove that at least 7 of 24
+triangles have the property:  the numbers in its vertices increase
+(from the least to the greatest) counterclockwise.
+
+414.
+Solve the equation ("2" encounters 1985 times):
+                x
+--------------------------------- = 1
+                  x
+2 + -----------------------------
+
+    2 + ........................
+
+                          x
+              2 + ---------------
+                  1 + sqrt(1 + x)
+
+415.
+All the points situated more close than 1cm to ALL the vertices of
+the right pentagon with 1cm side, are deleted from that pentagon.
+Find the area of the remained figure.
+
+416.
+Given big enough sheet of cross-lined paper with the side of the squares
+equal to 1. We are allowed to cut it along the lines only. Prove that
+for every m>12 we can cut out a rectangle of the greater than m area
+such, that it is impossible to cut out a rectangle of m area from it.
+
+417.
+The ABCDA_1B_1C_1D_1 cube has unit length edges.
+Find the distance between two circumferences, one of those is inscribed
+into the ABCD base, and another comes through A,C and B_1 points.
+
+
+The 20-th competition -- Ulyanovsk, 1986.
+
+  form        first day                    second day
+    8  418   419   420   421  | 430   431   432   433
+    9  422   423   424   425  | 434   433b  435   436
+   10  426   427   428   429  | 437   438   439   440
+
+418.
+The square polynomial x^2 + ax + b + 1 has natural roots.
+Prove that (a^2 + b^2) is a composite number.
+
+419.
+Two equal squares, one with red sides, another with blue ones, give an
+octagon in intersection.  Prove that the sum of red octagon sides
+lengths is equal to the sum of blue octagon sides lengths.
+
+420.
+The point M belongs to the [AC] side of the acute-angle triangle ABC.
+Two circles are outscribed around ABM and BCM triangles.  What M
+position corresponds to the minimal area of those circles intersection?
+
+421.
+Certain king of a certain state wants to build n cities and n-1 roads,
+connecting them to provide a possibility to move from every city to
+every city. (Each road connects two cities, the roads do not intersect,
+and don't come through another city.) He wants also, to make the
+shortests distances between the cities, along the roads, to be
+1,2,3,...,n(n-1)/2 kilometres.  Is it possible for
+a) n=6;
+b) n=1986?
+
+422.
+Prove that it is impossible to draw a convex quadrangle, with one
+diagonal equal to doubled another, the angle between them 45 degrees,
+on the coordinate plane, so, that all the vertices' coordinates would
+be integers.
+
+423.
+Prove that the rectangle mxn table can be filled with exact squares so,
+that the sums in the rows and the sums in the columns will be exact
+squares also.
+
+424.
+Two circumferences, with the distance d between centres, intersect in
+P and Q points. Two lines are drawn through the A point on the
+first circumference (Q<>A<>P) and P and Q points. They intersect the
+second circumference in the B and C points.
+a) Prove that the radius of the circle, outscribed around the ABC
+   triangle, equals d.
+b) Describe the set of the new circle's centres, if the A point moves
+   along all the first circumference.
+
+425.
+Given right hexagon. Each side is divided onto 1000 equal segments.
+All the points of division are connected with the segments, parallel to
+sides. Let us paint in turn the triples of unpainted nodes of obtained
+net, if they are vertices of the unilateral triangle, doesn't matter of
+what size an orientation. Suppose, we have managed to paint all the
+vertices except one.
+Prove that the unpainted node is not a hexagon vertex.
+
+426.
+Find all the natural numbers equal to the square of its divisors number.
+
+427.
+Prove that the following inequality helds for all positive {a_i}.
+1/a_1 + 2/(a_1+a_2) + ... + n/(a_1+...+a_n) < 4(1/a_1 + ... + 1/a_n)
+
+428.
+A line is drawn through the A vertex of ABC triangle with |AB|<>|AC|.
+Prove that the line can not contain more than one point M such, that
+M is not a triangle vertex, and the angles ABM abd ACM are equal.
+What lines do not contain such a point M at all?
+
+429.
+A cube with edge of length n (n>=3) consists of n^3 unit cubes.
+Prove that it is possible to write different n^3 integers on all the
+unit cubes to provide the zero sum of all integers in the every row
+parallel to some edge.
+
+430.
+The decimal notation of three natural numbers consists of equal digits:
+n digits x for a, n digits y for b and 2n digits z for c.
+For every n > 1 find all the possible triples of digits x,y,z such,
+that a^2 + b = c.
+
+431.
+Given two points inside a convex dodecagon (twelve sides) situated
+10cm far from each other.
+Prove that the difference between the sum of distances, from the
+point to all the vertices, is less than 1m for those points.
+
+432.
+Given 30 equal cups with milk. An elf tries to make the amount of milk
+equal in all the cups. He takes a pair of cups and aligns the milk
+level in two cups.  Can there be such an initial distribution of milk
+in the cups, that the elf will not be able to achieve his goal in a
+finite number of operations?
+
+433.
+Find the relation of the black part length and the white part length
+for the main diagonal of the
+a) 100x99 chess-board;
+b) 101x99 chess-board.
+
+434.
+Given right n-angle A_1A_2...A_n. Prove that if
+a) n is even number, than for the arbitrary point M in the plane,
+   it is possible to choose signs in an expression
+     +-[MA_1[ +-[MA_2[ +- ... +-[MA_n[
+   to make it equal to the zero vector (here [MA[ denotes vector).
+b) n is odd, than the abovementioned expression equals to the zero
+   vector for the finite set of M points only.
+
+435.
+All the fields of a square nxn (n>2) table are filled with +1 or -1
+according to the rules:
+At the beginning -1 are put in all the boundary fields.
+The number put in the field in turn (the field is chosen arbitraryly)
+equals to the product of the closest, from the different sides, numbers
+in its row or in its column.
+a) What is the minimal
+b) What is the maximal
+possible number of +1 in the obtained table?
+
+436.
+Prove that for every natural n the following inequality is valid:
+|sin 1| + |sin 2| + |sin(3n-1)| + |sin(3n)| > 8n/5.
+
+437.
+Prove that the sum of all numbers representable as 1/(mn), where
+m,n -- natural numbers, 1 <= m < n <= 1986;  is not an integer.
+
+438.
+A triangle and a square are outscribed around the unit circle.
+Prove that the intersection area is more than 3.4.
+Is it possible to assert that it is more than 3.5?
+
+439.
+Let us call a polynomial "admissible" if all it's coefficients are 0,
+1, 2 or 3. For given n find the number of all the admissible
+polynomials P such, that P(2) = n.
+
+440.
+Consider all the tetrahedrons AXBY, outscribed around the sphere.  Let
+A and B points be fixed.  Prove that the sum of angles in the non-plane
+quadrangle AXBY doesn't depend on X and Y points.
+
+
+The 21-st competition -- Frunze, 1987.
+
+  form        first day                    second day
+    8  441   442   443   444  | 452   453   454   455
+    9  445   446a  447   448  | 456   457   458   459
+   10  449   450   451   446b | 455   460   461   462
+
+441.
+Ten sportsmen have taken part in a table-tennis tournament (each pair
+has met once only, no draws). Let x_i be the number of i-th player
+victories, y_i -- losses.
+Prove that {x_1}^2 + ... + {x_10}^2 = {y_1}^2 + ... + {y_10}^2
+
+442.
+It is known that, having 6 weighs, it is possible to balance the scales
+with loads, which weights are successing natural numbers from 1 to 63.
+Find all such sets of weighs.
+
+443.
+Given right heptagon (7-angle) A_1...A_7.
+Prove that 1/|A_1A_5| + 1/|A_1A_3| = 1/|A_1A_7|.
+
+444.
+The "Sea battle" game.
+a) You are trying to find the 4-field ship -- a rectangle 1x4, situated
+   on the 7x7 playing board. You are allowed to ask a question, whether
+   it occupies the particular field or not.  How many questions is it
+   necessary to ask to find that ship surely?
+b) The same question, but the ship is a connected (i.e. its fields have
+   common sides) set of 4 fields.
+
+445.
+Prove that (1^{1987} + 2^{1987} + ... + n^{1987}) is dividable by (n+2).
+
+446.
++--+   a) How many such a figures can You put on a 8x8 board without
+|  |      intersections?
++--+--+   b) An arbitrary field is cut out of a 1987x1987 board.
+|  |  |      Prove that the reminding part of the board can be always
++--+--+      cut on such parts.
+
+447.
+Three lines are drawn parallel to the sides of the triangles in the
+opposite to the vertex, not belonging to the side, part of the plane.
+The distance from each side to the corresponding line equals the length
+of the side. Prove that six intersection points of those lines with
+the continuations of the sides are situated on one circumference.
+
+448.
+Given two closed broken lines in the plane with odd numbers of edges.
+All the lines, containing those edges are different, and not a triple
+of them intersects in one point.
+Prove that it is possible to chose one edge from each line such, that
+the chosen edges will be the opposite sides of a convex quadrangle.
+
+449.
+Find a set of five different relatively prime natural numbers such,
+that the sum of an arbitrary subset is a composite number.
+
+450.
+Given a convex pentagon. The angles ABC and ADE are equal. The angles
+AEC and ADB are equal too.
+Prove that the angles BAC and DAE are equal also.
+
+451.
+Prove such a, that all the numbers cos a, cos 2a, cos 4a, ... ,
+cos((2^n)a) are negative.
+
+452.
+The positive numbers a,b,c,A,B,C satisfy a condition
+a + A = b + B = c + C = k.
+Prove that aB + bC + cA <= k^2.
+
+453.
+Each field of the 1987x1987 board is filled with numbers, which
+absolute value is not greater than one. The sum of all the numbers
+in every 2x2 square equals 0.
+Prove that the sum of all the numbers is not greater than 1987.
+
+454.
+The B vertex of the ABC angle lies out the circle, and the [BA) and
+[BC) beams intersect it. The K point belongs to the intersection of the
+[BA) beam and the circumference. The KP chord is orthogonal to the
+angle ABC bisector. The (KP) line intersects the BC beam in the M
+point.  Prove that the [PM] segment is twice as long as the distance
+from the circle centre to the angle ABC bisector.
+
+455.
+Two players are writting in turn natural numbers not exceeding p.
+The rules forbid to write the divisors of the numbers already having
+been written. Those who cannot make his move looses.
+a) Who, and how, can win if p=10?
+b) Who wins if p=1000?
+
+456.
+Every evening uncle Chernomor (see Pushkin's tales) appoints either
+9 or 10 of his 33 "knights" /* let's call them so */ in the "night
+guard" /* let's call it so */. When it can happen, for the first time,
+that every knight has been on duty the same number of times?
+
+457.
+Some points with the integer coordinates are marked on the coordinate
+plane. Given a set of nonzero vectors. It is known, that if You apply
+the beginnings of those vectors to the arbitrary marked point, than
+there will be more marked ends of the vectors, than not marked.
+Prove that there is infinite number of marked points.
+
+458.
+The convex n-angle (n>=5) is cut along all its diagonals.
+Prove that there are at least a pair of parts with the different areas.
+
+459.
+The T_0 set consists of all the numbers, representable as (2^k)!,
+k = 0, 1, 2, ... , n, ... The T_m set is obtained from T_{m-1} by
+adding all the finite sums of different numbers, that belong to T_{m-1}.
+Prove that there is a natural number, that doesn't belong to T_{1987}.
+
+460.
+The plot of the y=f(x) function, being rotated by the (right) angle
+around the (0,0) point is not changed.
+a) Prove that the equation f(x)=x has the unique solution.
+b) Give an example of such a function.
+
+461.
+All the faces of a convex polyhedron are the triangles.
+Prove that it is possible to paint all its edges in red and blue colour
+in such a way, that it is possible to move from the arbitrary vertex
+to every vertex along the blue edges only and along the red edges only.
+
+462.
+Prove that for every natural n helds inequality
+(2n + 1)^n >= (2n)^n + (2n - 1)^n.
+
+
+ ____/|
+ \ o.O|                 Vladimir A. Pertsel
+  =(_)=        E-mail:  voldemar@wisdom.weizmann.ac.il
+    U      Disclaimer:  This posting represents the poster's views only.
